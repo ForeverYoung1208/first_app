@@ -1,0 +1,43 @@
+<h2>Информация о компании</h2>
+<!--
+<table>
+  <tr>
+    <th>Content</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+-->
+
+<% @start_articles.each do |start_article| %>
+
+  <div class="post">
+
+<!--				<h2 class="title"><a href="#">Lorem ipsum sed aliquam</a></h2>
+      <p class="meta">Sunday, September 10, 2011 7:27 AM <span>Posted by <a href="#">Someone</a></span></p>
+  -->
+      <div class="entry">
+        <p><%= start_article.content %></p>
+        <p class="meta"><%= link_to 'Изменить', edit_start_article_path(start_article) %>|
+            <%= link_to 'Удалить', start_article, confirm: 'Are you sure?', method: :delete %> </p>
+      </div>
+  </div>
+
+ <!--
+  <tr>
+    <td>%= start_article.content %></td>
+    <td>%= link_to 'Show', start_article %></td>
+    <td>%= link_to 'Edit', edit_start_article_path(start_article) %></td>
+    <td>%= link_to 'Destroy', start_article, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+ -->
+
+<% end %>
+
+<!--
+</table>
+-->
+
+<br />
+
+<%= link_to 'Добавить информацию', new_start_article_path %>
