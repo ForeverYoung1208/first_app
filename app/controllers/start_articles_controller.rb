@@ -1,4 +1,5 @@
 class StartArticlesController < ApplicationController
+  before_filter :set_page
   # GET /start_articles
   # GET /start_articles.json
   def index
@@ -80,4 +81,11 @@ class StartArticlesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+  def set_page
+    @selected_page='start_articles'
+  end
+
 end

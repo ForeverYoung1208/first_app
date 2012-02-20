@@ -1,4 +1,13 @@
 FirstApp::Application.routes.draw do
+
+  get "contacts" => 'contacts#index', :as=>:contacts
+
+  resources :clients
+
+  resources :services
+
+  resources :docs
+
   resources :start_articles
 
   # The priority is based upon order of creation:
