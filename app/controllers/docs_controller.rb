@@ -92,7 +92,7 @@ class DocsController < ApplicationController
   private
 
   def set_page
-    @selected_page='docs'
+    @selected_page=:page3
   end
 
 

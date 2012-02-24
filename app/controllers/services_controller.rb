@@ -86,7 +86,7 @@ class ServicesController < ApplicationController
   private
 
   def set_page
-    @selected_page='services'
+    @selected_page=:page2
   end
 
 

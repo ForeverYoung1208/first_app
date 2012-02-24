@@ -85,7 +85,7 @@ class StartArticlesController < ApplicationController
   private
 
   def set_page
-    @selected_page='start_articles'
+    @selected_page=:page1
   end
 
 end

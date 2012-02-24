@@ -13,23 +13,23 @@
 	<div id="header">
 		<div id="menu">
 			<ul>
-                                <%= li_current_page_item(@selected_page, 'start_articles' ) do %>
+                                <%= li_current_page_item(@selected_page, :page1 ) do %>
                                     <%=  link_to "О компании", start_articles_url%>
                                 <%  end %>
 
-                                <%= li_current_page_item(@selected_page, 'services') do %>
+                                <%= li_current_page_item(@selected_page, :page2 ) do %>
                                     <%=  link_to "Услуги", services_url%>
                                 <%  end %>
 
-                                <%= li_current_page_item(@selected_page, 'docs') do %>
+                                <%= li_current_page_item(@selected_page, :page3 ) do %>
                                     <%=  link_to "Документы", docs_url%>
                                 <%  end %>
 
-                                <%= li_current_page_item(@selected_page, 'clients') do %>
+                                <%= li_current_page_item(@selected_page, :page4 ) do %>
                                     <%=  link_to "Клиенты", clients_url%>
                                 <%  end %>
 
-                                <%= li_current_page_item(@selected_page, 'contacts') do %>
+                                <%= li_current_page_item(@selected_page, :page5 ) do %>
                                     <%=  link_to "Контакты", contacts_url%>
                                 <%  end %>
 			</ul>
@@ -43,49 +43,20 @@
 	</div>
 	<hr />
 	<!-- end #logo -->
+
+
+
 	<div id="page">
-		<div id="content">
-                        <%= yield %>
-		</div>
-		<!-- end #content -->
-		<div id="sidebar">
-			<ul>
-				<li>
-					<h2>Aliquam tempus</h2>
-					<p>Mauris vitae nisl nec metus placerat perdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in consectetuer hendrerit, volutpat.</p>
-				</li>
-				<li>
-					<h2>Pellenteque ornare </h2>
-					<ul>
-						<li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-						<li><a href="#">Magna lacus bibendum mauris</a></li>
-						<li><a href="#">Velit semper nisi molestie</a></li>
-						<li><a href="#">Eget tempor eget nonummy</a></li>
-						<li><a href="#">Nec metus sed donec</a></li>
-					</ul>
-				</li>
-				<li>
-					<h2>Turpis nulla</h2>
-					<ul>
-						<li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-						<li><a href="#">Magna lacus bibendum mauris</a></li>
-						<li><a href="#">Velit semper nisi molestie</a></li>
-						<li><a href="#">Eget tempor eget nonummy</a></li>
-						<li><a href="#">Nec metus sed donec</a></li>
-						<li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-						<li><a href="#">Magna lacus bibendum mauris</a></li>
-						<li><a href="#">Velit semper nisi molestie</a></li>
-						<li><a href="#">Eget tempor eget nonummy</a></li>
-						<li><a href="#">Nec metus sed donec</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-		<!-- end #sidebar -->
+
+                <%= yield %>
+          
 		<div style="clear: both;">&nbsp;</div>
 	</div>
 	<!-- end #page -->
-	<div id="footer">
+
+
+
+        <div id="footer">
 		<p>Copyright (c) 2011 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
 	</div>
 	<!-- end #footer -->

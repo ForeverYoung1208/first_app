@@ -86,7 +86,7 @@ class ClientsController < ApplicationController
   private
 
   def set_page
-    @selected_page='clients'
+    @selected_page=:page4
   end
 
 end

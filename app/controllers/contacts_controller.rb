@@ -8,7 +8,7 @@ class ContactsController < ApplicationController
   private
 
   def set_page
-    @selected_page='contacts'
+    @selected_page=:page5
   end
 
 end

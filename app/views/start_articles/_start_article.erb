@@ -1,0 +1,8 @@
+  <div class="post">
+
+      <div class="entry">
+        <p><%= start_article.content %></p>
+        <p class="meta"><%= link_to 'Изменить', edit_start_article_path(start_article) %>|
+            <%= link_to 'Удалить', start_article, confirm: 'Are you sure?', method: :delete %> </p>
+      </div>
+  </div>
