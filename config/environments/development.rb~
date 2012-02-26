@@ -18,8 +18,7 @@ FirstApp::Application.configure do
  
 ### i've adder it for devise  
   config.action_mailer.default_url_options = { :host => 'localhost:3000' } 
-## In production, :host should be set to the actual host of your application.
- 
+
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
