@@ -1,5 +1,7 @@
 FirstApp::Application.routes.draw do
 
+###  devise_for :users
+
   get "contacts" => 'contacts#index', :as=>:contacts
 
   resources :clients
