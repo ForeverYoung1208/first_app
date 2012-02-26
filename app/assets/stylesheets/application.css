@@ -52,6 +52,8 @@ a:hover {
 	text-decoration: none;
 }
 
+
+
 a img {
 	border: none;
 }
@@ -122,6 +124,12 @@ hr {
 	float: left;
 }
 
+#menu .current_page_item a {
+	background: #551300;
+	height: 20px;
+	color: #FFFFFF;
+}
+
 #menu a {
 	display: block;
 	float: left;
@@ -136,17 +144,16 @@ hr {
 	color: #551300;
 }
 
+/*
 #menu a:hover {
 	text-decoration: none;
 	background: #551300;
 	color: #FFFFFF;
 }
+*/
 
-#menu .current_page_item a {
-	background: #551300;
-	height: 20px;
-	color: #FFFFFF;
-}
+
+
 
 #menu .first {
 	background: none;
