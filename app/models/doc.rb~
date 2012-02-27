@@ -1,0 +1,15 @@
+class Doc < ActiveRecord::Base
+  has_attached_file :doc,
+	            :storage=>{
+	              'development'=>:s3,         
+		                           ##'development'=>:filesystem,
+		      'production'=>:s3
+                    }[RAILS_ENV],
+                    :s3_credentials=>"#{RAILS_ROOT}/config/s3.yml",
+		    :path => "fyhome/:attachment/:id/:basename.:extension",
+		    :bucket=>'fyfirsttest'
+                    
+  validates_attachment_size :doc, :less_than => 10.megabytes
+
+
+end

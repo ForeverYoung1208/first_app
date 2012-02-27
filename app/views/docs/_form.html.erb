@@ -1,4 +1,4 @@
-<%= form_for(@doc) do |f| %>
+<%= form_for @doc, :html => { :multipart => true } do |f| %>
   <% if @doc.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@doc.errors.count, "error") %> prohibited this doc from being saved:</h2>
@@ -19,6 +19,12 @@
     <%= f.label :content %><br />
     <%= f.text_field :content %>
   </div>
+
+  <div class="field">
+    <%= f.file_field :docfile %>
+  </div>
+
+
   <div class="actions">
     <%= f.submit %>
   </div>
