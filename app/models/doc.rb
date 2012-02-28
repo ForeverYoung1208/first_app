@@ -1,12 +1,19 @@
 class Doc < ActiveRecord::Base
   has_attached_file :docfile,
                     :storage=>{
-                      'development'=>:s3,
-                              ##'development'=>:filesystem,
+                      ###'development'=>:s3,
+                      'development'=>:filesystem,
                       'production'=>:s3
                     }[Rails.env],
+
+                    :url => {
+                      'development'=> "#{Rails.root}/public/docs/:attachment/:id/:basename.:extension",
+                      'production'=> "heroku/:attachment/:id/:basename.:extension"
+                    }[Rails.env],
+
+
                     :path => {
-                      'development'=> "fyhome/:attachment/:id/:basename.:extension",
+                      'development'=> "#{Rails.root}/public/docs/:attachment/:id/:basename.:extension",
                       'production'=> "heroku/:attachment/:id/:basename.:extension"
                     }[Rails.env],
                     :bucket         => ENV['S3_BUCKET'],
