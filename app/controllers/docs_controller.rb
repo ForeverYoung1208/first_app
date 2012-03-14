@@ -3,6 +3,12 @@ class DocsController < ApplicationController
   
   # GET /docs
   # GET /docs.json
+
+  def get_docfile
+    doc=Doc.find(params[:id])
+    send_file doc.docfile.path
+  end
+
   def index
     @docs = Doc.all
 

@@ -14,7 +14,7 @@
   <tr>
     <td><%= doc.name %></td>
     <td><%= doc.content %></td>
-    <td><%= link_to doc.docfile_file_name, doc.docfile.url  %></td>
+    <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
     <td><%= link_to 'Show', doc %></td>
     <td><%= link_to 'Edit', edit_doc_path(doc) %></td>
     <td><%= link_to 'Destroy', doc, confirm: 'Are you sure?', method: :delete %></td>

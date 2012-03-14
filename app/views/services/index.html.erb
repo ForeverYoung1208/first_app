@@ -1,27 +1,32 @@
-<h1>Listing services</h1>
+<div id="content">
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Price</th>
-    <th>Description</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+    <h1>Listing services</h1>
 
-<% @services.each do |service| %>
-  <tr>
-    <td><%= service.name %></td>
-    <td><%= service.price %></td>
-    <td><%= service.description %></td>
-    <td><%= link_to 'Show', service %></td>
-    <td><%= link_to 'Edit', edit_service_path(service) %></td>
-    <td><%= link_to 'Destroy', service, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
 
-<br />
+    <% @services.each do |service| %>
+      <tr>
+        <td><%= service.name %></td>
+        <td><%= service.price %></td>
+        <td><%= service.description %></td>
+        <td><%= link_to 'Show', service %></td>
+        <td><%= link_to 'Edit', edit_service_path(service) %></td>
+        <td><%= link_to 'Destroy', service, confirm: 'Are you sure?', method: :delete %></td>
+      </tr>
+    <% end %>
+    </table>
 
-<%= link_to 'New Service', new_service_path %>
+    <br />
+
+    <%= link_to 'New Service', new_service_path %>
+</div>
+
+<%= render "layouts/sidebar" %>

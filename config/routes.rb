@@ -3,6 +3,7 @@ FirstApp::Application.routes.draw do
 devise_for :users
 
   get "contacts" => 'contacts#index', :as=>:contacts
+  get "get_docfile/:id" => 'docs#get_docfile', :as=>:get_docfile
 
   resources :clients
 

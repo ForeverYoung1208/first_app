@@ -120,7 +120,7 @@ hr {
 
 #menu li {
 	display: block;
-	background: url(img02.jpg) repeat-y left top;
+/*	background: url(img02.jpg) repeat-y left top;*/
 	float: left;
 }
 
@@ -212,7 +212,7 @@ hr {
 }
 
 /** LOGO */
-
+/*
 #logo {
 	width: 1000px;
 	height: 415px;
@@ -220,9 +220,19 @@ hr {
 	padding-top: 25px;
 	background: #FFFFFF url(img01.jpg) no-repeat center 25px;
 }
+*/
+
+#logo {
+	width: 1000px;
+	height: 230px;
+	margin: 0 auto;
+	padding-top: 25px;
+	background: #FFFFFF url(img01_1.jpg) no-repeat center 25px;
+}
+
 
 #logo h1, #logo p {
-	width: 360px;
+	width: 380px;
 	margin: 0px;
 	line-height: normal;
 	text-align: center;
@@ -236,7 +246,7 @@ hr {
 }
 
 #logo h1 {
-	padding-top: 250px;
+	padding-top: 100px;
 /*	text-transform: lowercase;*/
 	font-size: 60px;
 	font-family: Georgia, "Times New Roman", Times, serif;

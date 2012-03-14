@@ -7,17 +7,17 @@
 
 $(document).ready(function(){
     $('.not_current_page_item').mouseenter(function(){
-        $(this).animate({
+        $(this).find('a').animate({
                         backgroundColor: "#803824",
                         color: "#FFFFFF"
-                        } , 500);
+                        } , 200);
     });
 
     $('.not_current_page_item').mouseout(function(){
-        $(this).animate({
+        $(this).find('a').animate({
                             backgroundColor: "#FFFFFF",
                             color: "#551300"
-                        } , 500)
+                        } , 200)
                .queue(function(){
                                     $(this).queue("fx", [])
                                 });

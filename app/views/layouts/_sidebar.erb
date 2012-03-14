@@ -1,44 +1,29 @@
-
-<ul>
-        <li>
-                <h2 id="aaa">Меню пользователя</h2>
-                  <div id="user_nav">
-                    <p class="notice"> <%= notice%></p>
-                    <p class="alert"> <%= alert%></p>
-
-                    <% if user_signed_in? %>
-                      Signed in as <%= current_user.email %>. Not you?
-                      <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-                    <% else %>
-                      <%= link_to "Sign up", new_user_registration_path %> or
-                      <%= link_to "Sign in", new_user_session_path %>
-                    <% end %>
-                  </div>
-
-        </li>
-        <li>
-                <h2>Pellenteque ornare </h2>
-                <ul>
-                        <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                        <li><a href="#">Magna lacus bibendum mauris</a></li>
-                        <li><a href="#">Velit semper nisi molestie</a></li>
-                        <li><a href="#">Eget tempor eget nonummy</a></li>
-                        <li><a href="#">Nec metus sed donec</a></li>
-                </ul>
-        </li>
-        <li>
-                <h2>Turpis nulla</h2>
-                <ul>
-                        <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                        <li><a href="#">Magna lacus bibendum mauris</a></li>
-                        <li><a href="#">Velit semper nisi molestie</a></li>
-                        <li><a href="#">Eget tempor eget nonummy</a></li>
-                        <li><a href="#">Nec metus sed donec</a></li>
-                        <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                        <li><a href="#">Magna lacus bibendum mauris</a></li>
-                        <li><a href="#">Velit semper nisi molestie</a></li>
-                        <li><a href="#">Eget tempor eget nonummy</a></li>
-                        <li><a href="#">Nec metus sed donec</a></li>
-                </ul>
-        </li>
-</ul>
+<div id="sidebar">
+    <ul>
+            <li>
+                    <h2>Pellenteque ornare </h2>
+                    <ul>
+                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#">Magna lacus bibendum mauris</a></li>
+                            <li><a href="#">Velit semper nisi molestie</a></li>
+                            <li><a href="#">Eget tempor eget nonummy</a></li>
+                            <li><a href="#">Nec metus sed donec</a></li>
+                    </ul>
+            </li>
+            <li>
+                    <h2>Turpis nulla</h2>
+                    <ul>
+                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#">Magna lacus bibendum mauris</a></li>
+                            <li><a href="#">Velit semper nisi molestie</a></li>
+                            <li><a href="#">Eget tempor eget nonummy</a></li>
+                            <li><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#">Magna lacus bibendum mauris</a></li>
+                            <li><a href="#">Velit semper nisi molestie</a></li>
+                            <li><a href="#">Eget tempor eget nonummy</a></li>
+                            <li><a href="#">Nec metus sed donec</a></li>
+                    </ul>
+            </li>
+    </ul>
+</div>
