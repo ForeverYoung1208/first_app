@@ -6,7 +6,12 @@ class DocsController < ApplicationController
 
   def get_docfile
     doc=Doc.find(params[:id])
-    send_file doc.docfile.path
+    case Rails.env
+    when 'development'
+      send_file doc.docfile.path
+    when 'production'
+      redirect_to ::FILE_SERV+doc.docfile.path
+    end
   end
 
   def index
