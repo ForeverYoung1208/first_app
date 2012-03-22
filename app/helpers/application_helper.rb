@@ -9,4 +9,8 @@ module ApplicationHelper
         content_tag(:li, content, :class => 'not_current_page_item ui-widget-content', :id=>current_page)
       end
   end
+
+  def admin_link_to(*args, &block)
+    link_to(*args, &block)
+  end
 end
