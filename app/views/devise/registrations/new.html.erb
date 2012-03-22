@@ -1,0 +1,22 @@
+<h2>Новый пользователь</h2>
+<br/>
+<%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+  <div><%= f.label 'E-mail:' %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.label 'Пароль:' %><br />
+  <%= f.password_field :password %></div>
+
+  <div><%= f.label 'Подтверждение пароля:' %><br />
+  <%= f.password_field :password_confirmation %></div>
+
+  <div>  <%= f.check_box :admin %> <%= f.label 'Администратор?' %></div>
+
+  <br />
+  <div><%= f.submit "Сохранить" %></div>
+<% end %>
+
+<br />
+<%= render "links" %>

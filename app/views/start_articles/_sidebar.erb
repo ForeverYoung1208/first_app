@@ -1,7 +1,7 @@
 <div id="sidebar">
   <div id="user_nav">
 
-    <% if notice or alert%>
+    <% if (notice or alert) and false %>
       <p class="notice"> <%= notice%></p>
       <p class="alert"> <%= alert%></p>
     <% end %>

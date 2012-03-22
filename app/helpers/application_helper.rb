@@ -10,7 +10,4 @@ module ApplicationHelper
       end
   end
 
-  def admin_link_to(*args, &block)
-    link_to(*args, &block)
-  end
 end
