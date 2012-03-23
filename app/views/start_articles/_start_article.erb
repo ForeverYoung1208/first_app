@@ -3,8 +3,8 @@
       <div class="entry">
         <p><%= start_article.content %></p>
           <p class="meta">
-              <%= link_to_if(current_user&&current_user.admin?, 'Изменить', edit_start_article_path(start_article)){} %>
-              <%= link_to_if(current_user&&current_user.admin?, '| Удалить', start_article, :confirm=>'точно удалить?', :method=>:delete){} %>
+              <%= admin_link_to 'Изменить', edit_start_article_path(start_article)%>
+              <%= admin_link_to '| Удалить', start_article, :confirm=>'точно удалить?', :method=>:delete %>
           </p>
       </div>
 

@@ -17,16 +17,16 @@
         <td><%= service.name %></td>
         <td><%= service.price %></td>
         <td><%= service.description %></td>
-        <td><%= link_to 'Show', service %></td>
-        <td><%= link_to 'Edit', edit_service_path(service) %></td>
-        <td><%= link_to 'Destroy', service, confirm: 'Are you sure?', method: :delete %></td>
+        <td><%= admin_link_to 'Показать', service %></td>
+        <td><%= admin_link_to 'Редактировать', edit_service_path(service) %></td>
+        <td><%= admin_link_to 'Удалить', service, confirm: 'Точно?', method: :delete %></td>
       </tr>
     <% end %>
     </table>
 
     <br />
 
-    <%= link_to 'New Service', new_service_path %>
+    <%= admin_link_to 'Добавить услугу', new_service_path %>
 </div>
 
-<%= render "layouts/sidebar" %>
+<%= render "sidebar" %>
