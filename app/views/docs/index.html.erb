@@ -1,27 +1,28 @@
-<h1>Listing docs</h1>
+<div id="content">
+  <h2>Документы</h2>
+  <br/>
+  <table>
+    <tr>
+      <th>Название</th>
+      <th>Ссылка на файл:</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
 
-<table>
-  <tr>
-    <th>Название</th>
-    <th>Краткое содержание</th>
-    <th>Сам файл:</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+  <% @docs.each do |doc| %>
+    <tr>
+      <td><%= doc.name %></td>
+      <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
+      <td><%= admin_link_to 'Show', doc %></td>
+      <td><%= admin_link_to 'Edit', edit_doc_path(doc) %></td>
+      <td><%= admin_link_to 'Destroy', doc, confirm: 'Are you sure?', method: :delete %></td>
+    </tr>
+  <% end %>
+  </table>
 
-<% @docs.each do |doc| %>
-  <tr>
-    <td><%= doc.name %></td>
-    <td><%= doc.content %></td>
-    <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
-    <td><%= link_to 'Show', doc %></td>
-    <td><%= link_to 'Edit', edit_doc_path(doc) %></td>
-    <td><%= link_to 'Destroy', doc, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
+  <br />
 
-<br />
-
-<%= link_to 'New Doc', new_doc_path %>
+  <%= admin_link_to 'New Doc', new_doc_path %>
+</div>
+<%= render "layouts/sidebar" %>

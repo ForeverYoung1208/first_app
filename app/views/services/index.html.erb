@@ -1,12 +1,11 @@
 <div id="content">
 
-    <h1>Наши услуги</h1>
-
+    <h2>услуги</h2>
+    <br/>
     <table>
       <tr>
-        <th>Наименование услуги</th>
+        <th>Наименование</th>
         <th>Стоимость</th>
-        <th>Описание</th>
         <th></th>
         <th></th>
         <th></th>
@@ -16,7 +15,6 @@
       <tr>
         <td><%= service.name %></td>
         <td><%= service.price %></td>
-        <td><%= service.description %></td>
         <td><%= admin_link_to 'Показать', service %></td>
         <td><%= admin_link_to 'Редактировать', edit_service_path(service) %></td>
         <td><%= admin_link_to 'Удалить', service, confirm: 'Точно?', method: :delete %></td>
@@ -29,4 +27,4 @@
     <%= admin_link_to 'Добавить услугу', new_service_path %>
 </div>
 
-<%= render "sidebar" %>
+<%= render "layouts/sidebar" %>

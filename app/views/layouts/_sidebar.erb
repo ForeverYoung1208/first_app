@@ -1,28 +1,41 @@
 <div id="sidebar">
+  
+  <div id="user_nav">
+
+    <% if (notice or alert) and false %>
+      <p class="notice"> <%= notice%></p>
+      <p class="alert"> <%= alert%></p>
+    <% end %>
+
+    <% if user_signed_in? %>
+      <h4>Вы вошли на сайт как <%= current_user.email %></h4>
+      <%= link_to "Выйти", destroy_user_session_path, :method => :delete %>
+    <% else %>
+      <h4>Вы не вошли как зарегистрированный пользователь.</h4>
+      <ul>
+        <li> <%= link_to "Войти", new_user_session_path %> |
+        <%= link_to "Новый пользователь", new_user_registration_path %></li>
+      </ul>
+    <% end %>
+  </div>
+
+
     <ul>
             <li>
-                    <h2>Pellenteque ornare </h2>
+                    <h2>А вообще, хотим Вам сказать: </h2>
                     <ul>
-                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                            <li><a href="#">Magna lacus bibendum mauris</a></li>
-                            <li><a href="#">Velit semper nisi molestie</a></li>
-                            <li><a href="#">Eget tempor eget nonummy</a></li>
-                            <li><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#">Наши услуги просто супер</a></li>
+                            <li><a href="#">Супер афигенные</a></li>
+                            <li><a href="#">Мы заставляем самолёты летать</a></li>
+                            <li><a href="#">И платить</a></li>
                     </ul>
             </li>
+
             <li>
-                    <h2>Turpis nulla</h2>
+                    <h2>А еще хотим вам скать что:</h2>
                     <ul>
-                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                            <li><a href="#">Magna lacus bibendum mauris</a></li>
-                            <li><a href="#">Velit semper nisi molestie</a></li>
-                            <li><a href="#">Eget tempor eget nonummy</a></li>
-                            <li><a href="#">Nec metus sed donec</a></li>
-                            <li><a href="#"></a><a href="#">Nec metus sed donec</a></li>
-                            <li><a href="#">Magna lacus bibendum mauris</a></li>
-                            <li><a href="#">Velit semper nisi molestie</a></li>
-                            <li><a href="#">Eget tempor eget nonummy</a></li>
-                            <li><a href="#">Nec metus sed donec</a></li>
+                            <li><a href="#">Наши конкуренты - говно</a></li>
+                            <li><a href="#">Еще раз закрепим: конкуренты - говно.</li>
                     </ul>
             </li>
     </ul>

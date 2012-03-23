@@ -1,7 +1,7 @@
 <%= form_for(@service) do |f| %>
   <% if @service.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@service.errors.count, "error") %> prohibited this service from being saved:</h2>
+      <h2><%= pluralize(@service.errors.count, "error") %>, Обнаружены ошибки при заоплнении:</h2>
 
       <ul>
       <% @service.errors.full_messages.each do |msg| %>
@@ -12,16 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label 'Наименование услуги' %><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :price %><br />
+    <%= f.label 'Стоимость' %><br />
     <%= f.text_field :price %>
-  </div>
-  <div class="field">
-    <%= f.label :description %><br />
-    <%= f.number_field :description %>
   </div>
   <div class="actions">
     <%= f.submit %>
