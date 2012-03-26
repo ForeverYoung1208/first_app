@@ -342,9 +342,10 @@ hr {
 }
 
 #sidebar li li {
+	border-bottom: none;
 	margin: 0 0 0 5px;
 	padding: 10px 0px 15px 15px;
-	background: url(img09.jpg) no-repeat left 16px;
+	background: url(img09.jpg) no-repeat left 14px;
 }
 
 #sidebar p {

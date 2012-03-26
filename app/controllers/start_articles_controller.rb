@@ -1,5 +1,7 @@
 class StartArticlesController < ApplicationController
   before_filter :set_page
+  before_filter :is_admin, :except=>:index
+
   # GET /start_articles
   # GET /start_articles.json
   def index
@@ -45,7 +47,7 @@ class StartArticlesController < ApplicationController
 
     respond_to do |format|
       if @start_article.save
-        format.html { redirect_to @start_article, notice: 'Start article was successfully created.' }
+        format.html { redirect_to @start_article, notice: 'Новая ствтья о компании создана' }
         format.json { render json: @start_article, status: :created, location: @start_article }
       else
         format.html { render action: "new" }
@@ -61,7 +63,7 @@ class StartArticlesController < ApplicationController
 
     respond_to do |format|
       if @start_article.update_attributes(params[:start_article])
-        format.html { redirect_to @start_article, notice: 'Start article was successfully updated.' }
+        format.html { redirect_to start_articles_path, notice: 'Статья обновлена' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

@@ -1,27 +1,17 @@
-<h1>Listing clients</h1>
-
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Address</th>
-    <th>Email</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<h2>Сейчас нашими клиентами являются:</h2>
 
 <% @clients.each do |client| %>
-  <tr>
-    <td><%= client.name %></td>
-    <td><%= client.address %></td>
-    <td><%= client.email %></td>
-    <td><%= link_to 'Show', client %></td>
-    <td><%= link_to 'Edit', edit_client_path(client) %></td>
-    <td><%= link_to 'Destroy', client, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
+  <ul>
+    <li>
+      <%= client.name %>,
+      <%= link_to client.address, 'http://'+client.address%>,
+      <%= client.email %>
+      <%= admin_link_to 'Редактировать', edit_client_path(client) %>
+      <%= admin_link_to 'Удалить', client, confirm: 'Точно?', method: :delete %>
+    </li>
+  </ul>
 <% end %>
-</table>
 
 <br />
 
-<%= link_to 'New Client', new_client_path %>
+<%= admin_link_to 'Добавить', new_client_path %>

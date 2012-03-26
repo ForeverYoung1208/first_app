@@ -1,20 +1,22 @@
 <div id="sidebar">
-  
   <div id="user_nav">
 
-    <% if (notice or alert) and false %>
+    <% if notice or alert %>
       <p class="notice"> <%= notice%></p>
       <p class="alert"> <%= alert%></p>
     <% end %>
 
     <% if user_signed_in? %>
       <h4>Вы вошли на сайт как <%= current_user.email %></h4>
-      <%= link_to "Выйти", destroy_user_session_path, :method => :delete %>
+      <p><%= link_to "Выйти", destroy_user_session_path, :method => :delete %></p>
+      <p><%= link_to "Редактировать профиль", edit_user_registration_path %></p>
+      <p><%= link_to "Новый пользователь", new_user_registration_path %></p>
+
     <% else %>
       <h4>Вы не вошли как зарегистрированный пользователь.</h4>
       <ul>
-        <li> <%= link_to "Войти", new_user_session_path %> |
-        <%= link_to "Новый пользователь", new_user_registration_path %></li>
+        <p><%= link_to "Войти", new_user_session_path %> |
+        <%= link_to "Новый пользователь", new_user_registration_path %></p>
       </ul>
     <% end %>
   </div>
@@ -24,18 +26,18 @@
             <li>
                     <h2>А вообще, хотим Вам сказать: </h2>
                     <ul>
-                            <li><a href="#">Наши услуги просто супер</a></li>
-                            <li><a href="#">Супер афигенные</a></li>
-                            <li><a href="#">Мы заставляем самолёты летать</a></li>
-                            <li><a href="#">И платить</a></li>
+                            <li>Наши услуги просто супер</li>
+                            <li>Супер афигенные</li>
+                            <li>Мы заставляем самолёты летать</li>
+                            <li>И платить</li>
                     </ul>
             </li>
 
             <li>
                     <h2>А еще хотим вам скать что:</h2>
                     <ul>
-                            <li><a href="#">Наши конкуренты - говно</a></li>
-                            <li><a href="#">Еще раз закрепим: конкуренты - говно.</li>
+                            <li>Наши конкуренты - говно</li>
+                            <li>Еще раз закрепим: конкуренты - говно.</li>
                     </ul>
             </li>
     </ul>

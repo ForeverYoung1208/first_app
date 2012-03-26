@@ -1,5 +1,6 @@
 class DocsController < ApplicationController
   before_filter :set_page
+  before_filter :is_admin, :except=>:index
   
   # GET /docs
   # GET /docs.json
@@ -57,7 +58,7 @@ class DocsController < ApplicationController
 
     respond_to do |format|
       if @doc.save
-        format.html { redirect_to @doc, notice: 'Doc was successfully created.' }
+        format.html { redirect_to @doc, notice: 'Документ создан' }
         format.json { render json: @doc, status: :created, location: @doc }
       else
         format.html { render action: "new" }
@@ -73,7 +74,7 @@ class DocsController < ApplicationController
 
     respond_to do |format|
       if @doc.update_attributes(params[:doc])
-        format.html { redirect_to @doc, notice: 'Doc was successfully updated.' }
+        format.html { redirect_to docs_path, notice: 'Документ обновлён' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

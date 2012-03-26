@@ -4,6 +4,7 @@ devise_for :users
 
   get "contacts" => 'contacts#index', :as=>:contacts
   get "get_docfile/:id" => 'docs#get_docfile', :as=>:get_docfile
+  get "i_am_superadmin" => 'application#i_am_superadmin'
 
   resources :clients
 

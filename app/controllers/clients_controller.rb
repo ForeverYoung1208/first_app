@@ -1,5 +1,6 @@
 class ClientsController < ApplicationController
   before_filter :set_page
+  before_filter :is_admin, :except=>:index
 
   # GET /clients
   # GET /clients.json
@@ -46,7 +47,7 @@ class ClientsController < ApplicationController
 
     respond_to do |format|
       if @client.save
-        format.html { redirect_to @client, notice: 'Client was successfully created.' }
+        format.html { redirect_to @client, notice: 'Информация о клиенте добавлена.' }
         format.json { render json: @client, status: :created, location: @client }
       else
         format.html { render action: "new" }
@@ -62,7 +63,7 @@ class ClientsController < ApplicationController
 
     respond_to do |format|
       if @client.update_attributes(params[:client])
-        format.html { redirect_to @client, notice: 'Client was successfully updated.' }
+        format.html { redirect_to clients_path, notice: 'Информация о клиенте обновлена.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

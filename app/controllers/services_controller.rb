@@ -1,5 +1,6 @@
 class ServicesController < ApplicationController
   before_filter :set_page
+  before_filter :is_admin, :except=>:index
 
   # GET /services
   # GET /services.json
@@ -62,7 +63,7 @@ class ServicesController < ApplicationController
 
     respond_to do |format|
       if @service.update_attributes(params[:service])
-        format.html { redirect_to @service, notice: 'Service was successfully updated.' }
+        format.html { redirect_to services_path, notice: 'Услуга обновлена' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }

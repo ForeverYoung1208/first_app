@@ -11,13 +11,10 @@
     </div>
   <% end %>
 
+  <br/>
   <div class="field">
     <%= f.label "Название" %><br />
     <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label "Краткое содержание"%><br />
-    <%= f.text_field :content %>
   </div>
 
   <div class="field">
@@ -27,6 +24,7 @@
 
 
   <div class="actions">
-    <%= f.submit %>
+    <br/>
+    <%= f.submit 'Обновить информацию'%>
   </div>
 <% end %>

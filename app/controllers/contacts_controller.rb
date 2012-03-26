@@ -1,5 +1,6 @@
 class ContactsController < ApplicationController
   before_filter :set_page
+  before_filter :is_admin, :except=>:index
 
   def index
     
