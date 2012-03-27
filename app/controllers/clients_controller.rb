@@ -1,3 +1,4 @@
+# encoding: utf-8
 class ClientsController < ApplicationController
   before_filter :set_page
   before_filter :is_admin, :except=>:index
