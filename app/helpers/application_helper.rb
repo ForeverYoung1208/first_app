@@ -13,7 +13,4 @@ module ApplicationHelper
       link_to(*args, &block)
     end
   end
-
-
-
 end
