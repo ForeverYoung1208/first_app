@@ -1,7 +1,7 @@
 # encoding: utf-8
 class DocsController < ApplicationController
   before_filter :set_page
-  before_filter :is_admin, :except=>:index
+  before_filter :is_admin, :except=>[:index, :get_docfile]
   
   # GET /docs
   # GET /docs.json

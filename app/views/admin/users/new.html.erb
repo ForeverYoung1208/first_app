@@ -1,0 +1,32 @@
+<h2>Новый пользователь</h2>
+<br/>
+<%= form_for(@user, :url => admin_user_path(@user)) do |f| %>
+
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div><%= f.label 'E-mail:' %><br />
+  <%= f.email_field :email %></div>
+
+  <div><%= f.label 'Пароль:' %><br />
+  <%= f.password_field :password %></div>
+
+  <div><%= f.label 'Подтверждение пароля:' %><br />
+  <%= f.password_field :password_confirmation %></div>
+
+  <% if current_user&&current_user.admin? %>
+    <div>  <%= f.check_box :admin %> <%= f.label 'Администратор?' %></div>
+  <% end %>
+
+  <br />
+  <div><%= f.submit "Сохранить" %></div>
+<% end %>
+
+<br />

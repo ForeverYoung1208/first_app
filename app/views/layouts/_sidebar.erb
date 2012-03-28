@@ -11,6 +11,7 @@
       <p><%= link_to "Выйти", destroy_user_session_path, :method => :delete %></p>
       <p><%= link_to "Редактировать профиль", edit_user_registration_path %></p>
       <p><%= link_to "Новый пользователь", new_user_registration_path %></p>
+      <p><%= link_to "Список пользователей", admin_users_path %></p>
 
     <% else %>
       <h4>Вы не вошли как зарегистрированный пользователь.</h4>
