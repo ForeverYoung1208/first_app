@@ -7,12 +7,14 @@ class Doc < ActiveRecord::Base
                     }[Rails.env],
 
                     :url => {
+                      ###'development'=> "fyhome/:attachment/:id/:basename.:extension",
                       'development'=> "#{Rails.root}/public/docs/:attachment/:id/:basename.:extension",
                       'production'=> "heroku/:attachment/:id/:basename.:extension"
                     }[Rails.env],
 
 
                     :path => {
+                      ###'development'=> "fyhome/:attachment/:id/:basename.:extension",
                       'development'=> "#{Rails.root}/public/docs/:attachment/:id/:basename.:extension",
                       'production'=> "heroku/:attachment/:id/:basename.:extension"
                     }[Rails.env],
