@@ -1,4 +1,4 @@
-<div id="sidebar_doc">
+<div id="sidebar">
   <div id="user_nav">
 
     <% if notice or alert %>
@@ -23,7 +23,14 @@
     <% end %>
   </div>
 
-<h4>Все документы</h4>
-<div id="doctree"></div>
 
+    <ul>
+      <li>
+        <div id="doctree"></div>
+      </li>
+
+      <li>
+        Произвольный блок 1
+      </li>
+    </ul>
 </div>
