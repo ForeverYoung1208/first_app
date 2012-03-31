@@ -23,5 +23,21 @@ $(document).ready(function(){
                                 });
     });
 
+    $('doctree')
+      .jstree({
+         "plugins": [
+           "json_data"
+         ],
+
+         "json_data" :{
+           "ajax":{
+             "url": "/docs"
+  
+           }
+         }
+      })
+
+
+
 
 });
