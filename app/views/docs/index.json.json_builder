@@ -1,0 +1,17 @@
+array ['1','2'] do |root_node|
+
+  data 'a node'+root_node
+  state 'open'
+  metadata do
+    id 'root node'
+  end
+  children do
+    array ["Child 1", "A Child 2"] do |n|
+      data n+'www'
+      metadata do
+        id n
+      end
+    end
+  end
+
+end

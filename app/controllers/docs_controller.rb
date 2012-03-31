@@ -2,6 +2,7 @@
 class DocsController < ApplicationController
   before_filter :set_page
   before_filter :is_admin, :except=>[:index, :get_docfile]
+##  respond_to :html, :json
   
   # GET /docs
   # GET /docs.json
@@ -19,10 +20,13 @@ class DocsController < ApplicationController
   def index
     @docs = Doc.all
 
+##    respond_with @docs
+
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @docs }
+      format.json { @docs }
     end
+
   end
 
   # GET /docs/1
