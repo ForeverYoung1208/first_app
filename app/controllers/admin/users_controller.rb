@@ -36,7 +36,8 @@ class Admin::UsersController < ApplicationController
       flash[:notice] = "Successfully updated User."
       redirect_to admin_users_path
     else
-      render :action => 'edit'
+      ## render :action => 'edit'
+      redirect_to edit_admin_user_path (params)
     end
   end
 
