@@ -1,5 +1,3 @@
-# ruby on rails первое приложение
+# STR page
 
-Это первое приложение для 
-[*Руби он рейлс туториал: Изучение рейлс на примерах*] (http://railstutorial.org/)
-[Майкл Хартл](http://michaelhartl.com).
+STR page
