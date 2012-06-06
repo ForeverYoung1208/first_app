@@ -39,4 +39,7 @@ FirstApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  ############# добавил для возможности прямого указания пути к css файлу jstree
+  config.serve_static_assets = true
 end
