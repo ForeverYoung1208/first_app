@@ -37,9 +37,14 @@ FirstApp::Application.configure do
   # Do not compress assets
   config.assets.compress = false
 
+  ## For checking asset pipline
+   config.assets.compile = true
+
+
+
   # Expands the lines which load the assets
   config.assets.debug = true
   
   ############# добавил для возможности прямого указания пути к css файлу jstree
-  config.serve_static_assets = true
+ ### config.serve_static_assets = true
 end

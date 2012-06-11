@@ -28,9 +28,6 @@ $(document).ready(function(){
          "plugins": [
            "themes","json_data","ui"
          ],
-         "themes": {
-           "url" : "stylesheets/jstree.css"
-         },
          "json_data" : {
 			"ajax" : {
 				"url" : "/docs"
