@@ -12,10 +12,10 @@ FirstApp::Application.configure do
 ###debug  config.action_controller.perform_caching = false
 
 ## Disable Rails's static asset server (Apache or nginx will already do this)
-  config.serve_static_assets = false
+##  config.serve_static_assets = false
 
   ############# добавил для возможности прямого указания пути к css файлу jstree
- ## config.serve_static_assets = true
+ config.serve_static_assets = true
 
  config.assets.precompile += ['jstree/themes/default/*']
   
