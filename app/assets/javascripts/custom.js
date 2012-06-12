@@ -22,7 +22,7 @@ $(document).ready(function(){
                                     $(this).queue("fx", [])
                                 });
     });
-
+    
     $('#doctree')
       .jstree({
          "plugins": [
