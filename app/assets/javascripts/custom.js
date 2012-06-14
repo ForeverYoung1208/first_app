@@ -22,7 +22,9 @@ $(document).ready(function(){
                                     $(this).queue("fx", [])
                                 });
     });
-    
+
+    $.jstree.THEMES_DIR = "jstree/themes/";
+
     $('#doctree')
       .jstree({
          "plugins": [
@@ -33,7 +35,8 @@ $(document).ready(function(){
 				"url" : "/docs"
 			}
          }
-      }).bind("select_node.jstree", function (e, data) {
+      })
+      .bind("select_node.jstree", function (e, data) {
         alert(data.rslt.obj.data("id"));
       });
 });
