@@ -23,7 +23,7 @@ $(document).ready(function(){
                                 });
     });
 
-    $.jstree.THEMES_DIR = "jstree/themes/";
+    $.jstree.THEMES_DIR = "assets/jstree/themes/";
 
     $('#doctree')
       .jstree({
