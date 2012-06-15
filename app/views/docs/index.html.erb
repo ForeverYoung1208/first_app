@@ -4,6 +4,7 @@
   <table>
     <tr>
       <th>Название</th>
+      <th>Категория (содержание)</th>
       <th>Ссылка на файл:</th>
       <th></th>
       <th></th>
@@ -12,6 +13,7 @@
   <% @docs.each do |doc| %>
     <tr>
       <td><%= doc.name %></td>
+      <td><%= doc.content %></td>
       <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
       <td><%= admin_link_to 'Редактировать', edit_doc_path(doc) %></td>
       <td><%= admin_link_to 'Удалить', doc, confirm: 'Точно?', method: :delete %></td>

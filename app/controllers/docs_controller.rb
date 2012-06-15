@@ -2,10 +2,10 @@
 class DocsController < ApplicationController
   before_filter :set_page
   before_filter :is_admin, :except=>[:index, :get_docfile]
-##  respond_to :html, :json
+
+  ###
+  respond_to :html, :json
   
-  # GET /docs
-  # GET /docs.json
 
   def get_docfile
     doc=Doc.find(params[:id])
@@ -17,16 +17,17 @@ class DocsController < ApplicationController
       redirect_to URI.encode(::FILE_SERV+doc.docfile.path)    end
   end
 
+  # GET /docs
+  # GET /docs.json
+
   def index
-    @docs = Doc.all
+    params[:category] ?  @docs = Doc.find_by_content(params[:category]) : @docs = Doc.all
+    respond_with @docs
+  end
 
-##    respond_with @docs
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { @docs }
-    end
-
+  def get_categories
+    @categories = Doc.select(:content).uniq.all
+    respond_with @categories
   end
 
   # GET /docs/1

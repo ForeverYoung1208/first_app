@@ -15,7 +15,9 @@ end
 
   resources :services
 
-  resources :docs
+  resources :docs do
+    get "get_categories", :on=> :collection
+  end
 
   resources :start_articles
 

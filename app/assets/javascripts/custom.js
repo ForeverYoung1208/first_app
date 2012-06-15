@@ -5,6 +5,8 @@
 
 // создаем свой обработчик
 
+// подсвтка главного меню
+
 $(document).ready(function(){
     $('.not_current_page_item').mouseenter(function(){
         $(this).find('a').animate({
@@ -23,7 +25,9 @@ $(document).ready(function(){
                                 });
     });
 
-    $.jstree.THEMES_DIR = "assets/jstree/themes/";
+// Дерево документов
+
+/*     $.jstree.THEMES_DIR = "assets/jstree/themes/"; */
 
     $('#doctree')
       .jstree({
@@ -32,11 +36,15 @@ $(document).ready(function(){
          ],
          "json_data" : {
 			"ajax" : {
-				"url" : "/docs"
+				"url" : "/docs/get_categories"
 			}
          }
       })
-      .bind("select_node.jstree", function (e, data) {
-        alert(data.rslt.obj.data("id"));
+      .bind("select_node.jstree", function (event, data) {
+// data.rslt.obj` is the jquery extended node that was clicked
+//          alert(data.rslt.obj.attr("id"));
+//но работает именно так:... 
+
+            alert(data.rslt.obj.data("id"));
       });
 });

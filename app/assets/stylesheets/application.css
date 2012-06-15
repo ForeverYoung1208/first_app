@@ -1,5 +1,6 @@
 /*
- *= require jstree/themes/default/style
+ require jstree/themes/default/style
+ *= require docs
  */
 
 
@@ -370,10 +371,11 @@ hr {
 #sidebar p {
 	line-height: 200%;
 }
-
+/*
 #sidebar a {
 	color: #696969;
 }
+*/
 
 /* Calendar */
 
