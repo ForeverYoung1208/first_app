@@ -4,7 +4,7 @@ class DocsController < ApplicationController
   before_filter :is_admin, :except=>[:index, :get_docfile, :get_categories]
 
   ###
-  respond_to :html, :json
+  respond_to :html, :json, :js
   
 
   def get_docfile
@@ -21,7 +21,7 @@ class DocsController < ApplicationController
   # GET /docs.json
 
   def index
-    params[:category] ?  @docs = Doc.find_by_content(params[:category]) : @docs = Doc.all
+    params[:category]&&params[:category]!='' ?  @docs = Doc.find_all_by_content(params[:category]) : @docs = Doc.all
     respond_with @docs
   end
 

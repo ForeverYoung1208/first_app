@@ -23,6 +23,7 @@ class Doc < ActiveRecord::Base
                                          :secret_access_key => ENV['S3_SECRET']}
 
   validates_attachment_size :docfile, :less_than => 10.megabytes
+  validates :content, :presence=> true
 
 
 end

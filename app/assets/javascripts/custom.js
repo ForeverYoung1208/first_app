@@ -31,20 +31,20 @@ $(document).ready(function(){
 
     $('#doctree')
       .jstree({
-         "plugins": [
-           "themes","json_data","ui"
-         ],
+        "plugins": [
+          "themes","json_data","ui"
+        ],
          "json_data" : {
-			"ajax" : {
-				"url" : "/docs/get_categories"
-			}
+           "ajax" : {
+              "url" : "/docs/get_categories"
+           }
          }
       })
       .bind("select_node.jstree", function (event, data) {
+        $.get('/docs.js', {category : data.rslt.obj.data("id") } )
 // data.rslt.obj` is the jquery extended node that was clicked
 //          alert(data.rslt.obj.attr("id"));
 //но работает именно так:... 
-
-            alert(data.rslt.obj.data("id"));
+// alert(data.rslt.obj.data("id"));
       });
 });

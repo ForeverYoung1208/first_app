@@ -2,12 +2,12 @@ array [0] do
   data 'Все документы'
   state 'open'
   metadata do
-    id 'мета-все-документы'
+    id ''
   end
   children @categories do |category|
     data category.content
     metadata do
-      id category.content+'(id)' if category.content
+      id category.content
     end
   end
 
