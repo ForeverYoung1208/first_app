@@ -17,7 +17,7 @@
         <td><%= service.price %></td>
         <td><%= admin_link_to 'Показать', service %></td>
         <td><%= admin_link_to 'Редактировать', edit_service_path(service) %></td>
-        <td><%= admin_link_to 'Удалить', service, :confirm => 'Точно?', :method => :delete %></td>
+        <td><%= admin_link_to 'Удалить', service, confirm: 'Точно?', method: :delete %></td>
       </tr>
     <% end %>
     </table>

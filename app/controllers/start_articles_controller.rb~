@@ -64,10 +64,10 @@ class StartArticlesController < ApplicationController
 
     respond_to do |format|
       if @start_article.update_attributes(params[:start_article])
-        format.html { redirect_to start_articles_path, :notice => 'Статья обновлена' }
+        format.html { redirect_to start_articles_path, notice: 'Статья обновлена' }
         format.json { head :no_content }
       else
-        format.html { render :action => "edit" }
+        format.html { render action: "edit" }
         format.json { render :json => @start_article.errors, :status => :unprocessable_entity }
       end
     end

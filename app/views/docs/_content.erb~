@@ -15,7 +15,7 @@
       <td><%= doc.content %></td>
       <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
       <td><%= admin_link_to 'Редактировать', edit_doc_path(doc) %></td>
-      <td><%= admin_link_to 'Удалить', doc, :confirm => 'Точно?', :method => :delete %></td>
+      <td><%= admin_link_to 'Удалить', doc, confirm: 'Точно?', method: :delete %></td>
     </tr>
   <% end %>
   </table>

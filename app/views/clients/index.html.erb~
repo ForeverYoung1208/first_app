@@ -7,7 +7,7 @@
       <%= link_to client.address, 'http://'+client.address%>,
       <%= client.email %>
       <%= admin_link_to 'Редактировать', edit_client_path(client) %>
-      <%= admin_link_to 'Удалить', client, :confirm => 'Точно?', :method => :delete %>
+      <%= admin_link_to 'Удалить', client, confirm: 'Точно?', method: :delete %>
     </li>
   </ul>
 <% end %>
