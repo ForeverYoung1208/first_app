@@ -7,10 +7,11 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-
-##gem 'mysql2'
-##gem "cgi_multipart_eof_fix"
-##gem "fastthread"
+############ добавил для mysql
+#gem 'mysql2'
+#gem "cgi_multipart_eof_fix"
+#gem "fastthread"
+##############
 
 group :production do
   gem 'pg'

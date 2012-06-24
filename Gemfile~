@@ -1,15 +1,17 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
+## gem 'haml'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 
-
-##gem 'mysql2'
-##gem "cgi_multipart_eof_fix"
-##gem "fastthread"
+############ добавил для mysql
+#gem 'mysql2'
+#gem "cgi_multipart_eof_fix"
+#gem "fastthread"
+##############
 
 group :production do
   gem 'pg'
@@ -38,6 +40,7 @@ gem 'devise'
 gem 'paperclip'
 gem 'aws-s3'
 gem 'aws-sdk'
+gem 'json_builder'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
