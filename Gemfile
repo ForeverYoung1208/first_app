@@ -37,11 +37,16 @@ end
 
 gem 'jquery-rails'
 gem 'devise'
-gem 'paperclip', '~> 2.7'
-gem 'journey', '1.0.3'
-gem 'aws-s3'
-gem 'aws-sdk'
+gem 'paperclip', '~> 2.7'  
+
+# gem 'aws-s3'
+# gem 'aws-sdk'
 gem 'json_builder'
+
+#defition special gem versions for hosting
+
+gem 'xml-simple', '1.0.12'
+gem 'journey', '1.0.3'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

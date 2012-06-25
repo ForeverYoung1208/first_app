@@ -1,0 +1,3001 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-19 14:56:46 +0300
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (2.6ms)
+  Rendered layouts/_test_login_info.erb (0.3ms)
+  Rendered layouts/_sidebar.erb (3.1ms)
+  Rendered start_articles/index.html.erb within layouts/application (60.2ms)
+Compiled application.js  (36ms)  (pid 21997)
+Completed 200 OK in 331ms (Views: 324.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /jstree/themes/default/style.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (75ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /docs.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /clients.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /contacts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /custom.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /docs.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /services.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /start_articles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:47 +0300
+Served asset /application.js - 304 Not Modified (144ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at 2012-06-19 14:56:48 +0300
+Served asset /img01_1.jpg - 304 Not Modified (19ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  Rendered docs/_content.erb (14.7ms)
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered docs/_sidebar.erb (73.1ms)
+  Rendered docs/index.html.erb within layouts/application (91.0ms)
+Completed 200 OK in 164ms (Views: 135.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /docs.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:49 +0300
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at 2012-06-19 14:56:50 +0300
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at 2012-06-19 14:56:50 +0300
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (5.4ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT "clients".* FROM "clients" 
+  Rendered clients/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 40ms (Views: 28.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /clients.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /docs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:51 +0300
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at 2012-06-19 14:56:52 +0300
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at 2012-06-19 14:56:52 +0300
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /jstree/themes/default/style.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /docs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /services.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at 2012-06-19 14:56:53 +0300
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Jun 19 14:58:11 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (3.9ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (14.2ms)
+  Rendered layouts/_test_login_info.erb (1.5ms)
+  Rendered layouts/_sidebar.erb (40.1ms)
+  Rendered start_articles/index.html.erb within layouts/application (68.4ms)
+Compiled application.js  (62ms)  (pid 22169)
+Completed 200 OK in 320ms (Views: 308.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /docs.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /clients.js - 304 Not Modified (223ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /contacts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /docs.js - 304 Not Modified (56ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /services.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /users.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:12 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (54ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:13 +0300 2012
+Served asset /application.js - 304 Not Modified (113ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at Tue Jun 19 14:58:13 +0300 2012
+Served asset /img01_1.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/contacts" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Processing by ContactsController#index as HTML
+  Rendered contacts/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /contacts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:14 +0300 2012
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at Tue Jun 19 14:58:15 +0300 2012
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at Tue Jun 19 14:58:15 +0300 2012
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.4ms)[0m  SELECT "clients".* FROM "clients" 
+  Rendered clients/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 35ms (Views: 24.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at Tue Jun 19 14:58:16 +0300 2012
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Jun 20 20:58:51 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (16.7ms)
+  Rendered layouts/_test_login_info.erb (0.4ms)
+  Rendered layouts/_sidebar.erb (6.0ms)
+  Rendered start_articles/index.html.erb within layouts/application (113.5ms)
+Completed 200 OK in 260ms (Views: 248.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:51 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:51 +0300 2012
+Served asset /docs.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /jquery.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /clients.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /contacts.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /custom.js - 304 Not Modified (208ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /docs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /services.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /users.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:52 +0300 2012
+Served asset /application.js - 304 Not Modified (154ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at Wed Jun 20 20:58:53 +0300 2012
+Served asset /img01_1.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/clients" for 127.0.0.1 at Wed Jun 20 20:58:54 +0300 2012
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT "clients".* FROM "clients" 
+  Rendered clients/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 24ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /contacts.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Jun 20 20:58:55 +0300 2012
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at Wed Jun 20 20:58:56 +0300 2012
+Served asset /img01_1.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-24 18:20:08 +0300
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.3ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (3.1ms)
+  Rendered layouts/_test_login_info.erb (0.4ms)
+  Rendered layouts/_sidebar.erb (9.7ms)
+  Rendered start_articles/index.html.erb within layouts/application (363.0ms)
+Compiled application.js  (210ms)  (pid 28429)
+Completed 200 OK in 923ms (Views: 914.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-24 22:20:40 +0300
+Processing by StartArticlesController#index as HTML
+  [1m[35mStartArticle Load (1.1ms)[0m  SELECT "start_articles".* FROM "start_articles" 
+  Rendered start_articles/_start_article.erb (8.8ms)
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered layouts/_sidebar.erb (7.8ms)
+  Rendered start_articles/index.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 190ms (Views: 174.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:40 +0300
+Served asset /jstree/themes/default/style.css - 200 OK (38ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /_lib/jquery.cookie.js - 200 OK (76ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /jquery.js - 200 OK (42ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /application.css - 200 OK (50ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /docs.css - 200 OK (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /jquery_ujs.js - 200 OK (25ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /_lib/jquery.hotkeys.js - 200 OK (18ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /clients.js - 200 OK (18ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /contacts.js - 200 OK (13ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /custom.js - 200 OK (39ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /docs.js - 200 OK (18ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 200 OK (15ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /services.js - 200 OK (36ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /start_articles.js - 200 OK (25ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /users.js - 200 OK (22ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /jstree/jquery.jstree.js - 200 OK (13ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:41 +0300
+Served asset /application.js - 200 OK (159ms)
+
+
+Started GET "/assets/img01_1.jpg" for 127.0.0.1 at 2012-06-24 22:20:42 +0300
+Served asset /img01_1.jpg - 200 OK (43ms)
+
+
+Started GET "/assets/img08.jpg" for 127.0.0.1 at 2012-06-24 22:20:42 +0300
+Served asset /img08.jpg - 200 OK (14ms)
+
+
+Started GET "/docs" for 127.0.0.1 at 2012-06-24 22:20:43 +0300
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  Rendered docs/_content.erb (24.0ms)
+  Rendered layouts/_test_login_info.erb (0.0ms)
+  Rendered docs/_sidebar.erb (4.7ms)
+  Rendered docs/index.html.erb within layouts/application (51.7ms)
+Completed 200 OK in 208ms (Views: 173.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /jstree/themes/default/style.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-24 22:20:44 +0300
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css" for 127.0.0.1 at 2012-06-24 22:20:45 +0300
+Served asset /jstree/themes/default/style.css - 200 OK (19ms)
+
+
+Started GET "/assets/jstree/themes/default/throbber.gif" for 127.0.0.1 at 2012-06-24 22:20:45 +0300
+Served asset /jstree/themes/default/throbber.gif - 200 OK (25ms)
+
+
+Started GET "/assets/jstree/themes/default/d.png" for 127.0.0.1 at 2012-06-24 22:20:45 +0300
+Served asset /jstree/themes/default/d.png - 200 OK (24ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at 2012-06-24 22:20:45 +0300
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (3.9ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (19.7ms)
+Completed 200 OK in 47ms (Views: 41.6ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/docs.js?category=eee" for 127.0.0.1 at 2012-06-24 22:20:46 +0300
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"eee"}
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."content" = 'eee'[0m
+  Rendered docs/_content.erb (5.0ms)
+  Rendered docs/index.js.erb (7.2ms)
+Completed 200 OK in 398ms (Views: 30.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs.js?category=qqq" for 127.0.0.1 at 2012-06-24 22:20:47 +0300
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"qqq"}
+  [1m[35mDoc Load (0.4ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'qqq'
+  Rendered docs/_content.erb (2.1ms)
+  Rendered docs/index.js.erb (7.4ms)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 24 23:18:05 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (3.9ms)
+  Rendered layouts/_test_login_info.erb (0.3ms)
+  Rendered layouts/_sidebar.erb (3.8ms)
+  Rendered start_articles/index.html.erb within layouts/application (22.3ms)
+Compiled jstree/themes/default/style.css  (2ms)  (pid 12194)
+Compiled docs.css  (0ms)  (pid 12194)
+Compiled application.css  (21ms)  (pid 12194)
+Compiled jquery.js  (16ms)  (pid 12194)
+Compiled jquery_ujs.js  (0ms)  (pid 12194)
+Compiled _lib/jquery.cookie.js  (1ms)  (pid 12194)
+Compiled _lib/jquery.hotkeys.js  (9ms)  (pid 12194)
+Compiled clients.js  (722ms)  (pid 12194)
+Compiled contacts.js  (568ms)  (pid 12194)
+Compiled custom.js  (18ms)  (pid 12194)
+Compiled docs.js  (708ms)  (pid 12194)
+Compiled jquery-ui-1.8.18.custom.min.js  (26ms)  (pid 12194)
+Compiled services.js  (614ms)  (pid 12194)
+Compiled start_articles.js  (494ms)  (pid 12194)
+Compiled users.js  (536ms)  (pid 12194)
+Compiled jstree/jquery.jstree.js  (378ms)  (pid 12194)
+Compiled application.js  (4811ms)  (pid 12194)
+Completed 200 OK in 5256ms (Views: 5235.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /jstree/themes/default/style.css - 200 OK (17ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /docs.css - 200 OK (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /application.css - 200 OK (56ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /jquery.js - 200 OK (56ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /jquery_ujs.js - 200 OK (16ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /_lib/jquery.cookie.js - 200 OK (34ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 200 OK (16ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /clients.js - 200 OK (14ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /contacts.js - 200 OK (8ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /custom.js - 200 OK (10ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /docs.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 200 OK (35ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /services.js - 200 OK (16ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /users.js - 200 OK (11ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /start_articles.js - 200 OK (16ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /jstree/jquery.jstree.js - 200 OK (32ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:11 +0300 2012
+Served asset /application.js - 200 OK (358ms)
+
+
+Started GET "/services" for 127.0.0.1 at Sun Jun 24 23:18:26 +0300 2012
+Processing by ServicesController#index as HTML
+  [1m[35mService Load (0.2ms)[0m  SELECT "services".* FROM "services" 
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered layouts/_sidebar.erb (25.0ms)
+  Rendered services/index.html.erb within layouts/application (46.3ms)
+Completed 200 OK in 140ms (Views: 112.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /services.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:27 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.0ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  Rendered docs/_content.erb (25.4ms)
+  Rendered layouts/_test_login_info.erb (7.2ms)
+  Rendered docs/_sidebar.erb (10.0ms)
+  Rendered docs/index.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 138ms (Views: 104.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:31 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /docs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /services.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Sun Jun 24 23:18:32 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.5ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (8.2ms)
+Completed 200 OK in 47ms (Views: 33.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/docs.js?category=" for 127.0.0.1 at Sun Jun 24 23:18:34 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>""}
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  Rendered docs/_content.erb (11.0ms)
+  Rendered docs/index.js.erb (22.0ms)
+Completed 200 OK in 42ms (Views: 32.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs.js?category=act1" for 127.0.0.1 at Sun Jun 24 23:18:35 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"act1"}
+  [1m[35mDoc Load (0.7ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'act1'
+  Rendered docs/_content.erb (2.3ms)
+  Rendered docs/index.js.erb (3.8ms)
+Completed 200 OK in 25ms (Views: 16.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/get_docfile/8" for 127.0.0.1 at Sun Jun 24 23:18:37 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "8"]]
+Sent file /home/fy/ror/first_app/public/docs/docfiles/8/укукуку.txt (0.3ms)
+Completed 200 OK in 13ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/docs.js?category=eee" for 127.0.0.1 at Sun Jun 24 23:18:41 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"eee"}
+  [1m[35mDoc Load (0.4ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'eee'
+  Rendered docs/_content.erb (6.7ms)
+  Rendered docs/index.js.erb (8.3ms)
+Completed 200 OK in 18ms (Views: 12.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/get_docfile/12" for 127.0.0.1 at Sun Jun 24 23:18:42 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "12"]]
+Sent file /home/fy/ror/first_app/public/docs/docfiles/12/про_не.txt (0.6ms)
+Completed 200 OK in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/docs.js?category=jjj" for 127.0.0.1 at Sun Jun 24 23:18:44 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"jjj"}
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'jjj'
+  Rendered docs/_content.erb (2.8ms)
+  Rendered docs/index.js.erb (5.9ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs.js?category=" for 127.0.0.1 at Sun Jun 24 23:18:45 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>""}
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  Rendered docs/_content.erb (8.6ms)
+  Rendered docs/index.js.erb (11.0ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 20:38:19 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (4.4ms)
+  Rendered layouts/_test_login_info.erb (0.4ms)
+  Rendered layouts/_sidebar.erb (9.6ms)
+  Rendered start_articles/index.html.erb within layouts/application (215.0ms)
+Compiled jstree/themes/default/style.css  (0ms)  (pid 10053)
+Compiled docs.css  (0ms)  (pid 10053)
+Compiled application.css  (259ms)  (pid 10053)
+Compiled jquery.js  (14ms)  (pid 10053)
+Compiled jquery_ujs.js  (0ms)  (pid 10053)
+Compiled _lib/jquery.cookie.js  (1ms)  (pid 10053)
+Compiled _lib/jquery.hotkeys.js  (0ms)  (pid 10053)
+Compiled clients.js  (1084ms)  (pid 10053)
+Compiled contacts.js  (346ms)  (pid 10053)
+Compiled custom.js  (11ms)  (pid 10053)
+Compiled docs.js  (358ms)  (pid 10053)
+Compiled jquery-ui-1.8.18.custom.min.js  (17ms)  (pid 10053)
+Compiled services.js  (393ms)  (pid 10053)
+Compiled start_articles.js  (342ms)  (pid 10053)
+Compiled users.js  (397ms)  (pid 10053)
+Compiled jstree/jquery.jstree.js  (19ms)  (pid 10053)
+Compiled application.js  (4828ms)  (pid 10053)
+Completed 200 OK in 5851ms (Views: 5844.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /docs.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /jquery.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /clients.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /contacts.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /custom.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /docs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /services.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:26 +0300 2012
+Served asset /users.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:27 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:27 +0300 2012
+Served asset /application.js - 304 Not Modified (148ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  Rendered docs/_content.erb (15.7ms)
+  Rendered layouts/_test_login_info.erb (2.2ms)
+  Rendered docs/_sidebar.erb (4.7ms)
+  Rendered docs/index.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 210ms (Views: 192.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /users.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:30 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (14.0ms)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/clients" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT "clients".* FROM "clients" 
+  Rendered clients/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 27.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:31 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 20:38:32 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (2.7ms)
+  Rendered layouts/_test_login_info.erb (0.5ms)
+  Rendered layouts/_sidebar.erb (7.6ms)
+  Rendered start_articles/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 220ms (Views: 212.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /docs.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /jquery.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:47 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /clients.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /contacts.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /docs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /services.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:48 +0300 2012
+Served asset /application.js - 304 Not Modified (225ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:08:49 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  Rendered docs/_content.erb (7.7ms)
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered docs/_sidebar.erb (2.4ms)
+  Rendered docs/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 55ms (Views: 37.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:49 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:49 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:49 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /services.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:08:50 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (23.8ms)
+Completed 200 OK in 37ms (Views: 31.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs.js?category=act1" for 127.0.0.1 at Mon Jun 25 21:08:52 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"act1"}
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'act1'
+  Rendered docs/_content.erb (2.7ms)
+  Rendered docs/index.js.erb (4.1ms)
+Completed 200 OK in 119ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs.js?category=eee" for 127.0.0.1 at Mon Jun 25 21:08:53 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"eee"}
+  [1m[36mDoc Load (0.8ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."content" = 'eee'[0m
+  Rendered docs/_content.erb (2.2ms)
+  Rendered docs/index.js.erb (3.6ms)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:33:38 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (20.8ms)
+  Rendered layouts/_test_login_info.erb (0.3ms)
+  Rendered docs/_sidebar.erb (4.3ms)
+  Rendered docs/index.html.erb within layouts/application (31.2ms)
+Compiled jstree/themes/default/style.css  (53ms)  (pid 12651)
+Compiled docs.css  (0ms)  (pid 12651)
+Compiled application.css  (86ms)  (pid 12651)
+Compiled jquery.js  (19ms)  (pid 12651)
+Compiled jquery_ujs.js  (2ms)  (pid 12651)
+Compiled _lib/jquery.cookie.js  (1ms)  (pid 12651)
+Compiled _lib/jquery.hotkeys.js  (1ms)  (pid 12651)
+Compiled clients.js  (303ms)  (pid 12651)
+Compiled contacts.js  (296ms)  (pid 12651)
+Compiled custom.js  (4ms)  (pid 12651)
+Compiled docs.js  (533ms)  (pid 12651)
+Compiled jquery-ui-1.8.18.custom.min.js  (17ms)  (pid 12651)
+Compiled services.js  (341ms)  (pid 12651)
+Compiled start_articles.js  (289ms)  (pid 12651)
+Compiled users.js  (316ms)  (pid 12651)
+Compiled jstree/jquery.jstree.js  (16ms)  (pid 12651)
+Compiled application.js  (2529ms)  (pid 12651)
+Completed 200 OK in 3003ms (Views: 2987.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /docs.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /jquery.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /clients.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /contacts.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /custom.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /docs.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (113ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /services.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /users.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:41 +0300 2012
+Served asset /application.js - 304 Not Modified (102ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:33:42 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.6ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (10.8ms)
+Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:33:46 +0300 2012
+Processing by Devise::SessionsController#new as HTML
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered devise/_links.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 58ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:46 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:46 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:47 +0300 2012
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Вход", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"admin@admin.com"}, "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "utf8"=>"✓"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'admin@admin.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "current_sign_in_at" = '2012-06-25 18:33:51.201645', "updated_at" = '2012-06-25 18:33:51.203729', "last_sign_in_at" = '2012-06-19 11:45:44.155111', "sign_in_count" = 14 WHERE "users"."id" = 2
+  [1m[36m (48.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 208ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[35mStartArticle Load (0.1ms)[0m  SELECT "start_articles".* FROM "start_articles" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered start_articles/_start_article.erb (7.1ms)
+  Rendered layouts/_sidebar.erb (3.4ms)
+  Rendered start_articles/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 43ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /contacts.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:51 +0300 2012
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (31.8ms)
+  Rendered docs/_sidebar.erb (3.8ms)
+  Rendered docs/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 74ms (Views: 64.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /custom.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:54 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:55 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:55 +0300 2012
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:33:55 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.2ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (5.9ms)
+Completed 200 OK in 18ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/docs/5" for 127.0.0.1 at Mon Jun 25 21:33:57 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"5", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.7ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "5"]]
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 5]]
+[paperclip] Deleting attachments.
+  [1m[36m (38.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 52ms (ActiveRecord: 39.6ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:33:57 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (10.5ms)
+  Rendered docs/_sidebar.erb (1.1ms)
+  Rendered docs/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 58ms (Views: 37.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:33:58 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (3.2ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/docs/6" for 127.0.0.1 at Mon Jun 25 21:33:59 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"6", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 6]]
+[paperclip] Deleting attachments.
+  [1m[36m (16.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 35ms (ActiveRecord: 17.4ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:33:59 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (32.7ms)
+  Rendered docs/_sidebar.erb (1.2ms)
+  Rendered docs/index.html.erb within layouts/application (43.9ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:00 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (4.1ms)
+Completed 200 OK in 14ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/docs/7" for 127.0.0.1 at Mon Jun 25 21:34:01 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"7", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "7"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 7]]
+[paperclip] Deleting attachments.
+  [1m[36m (45.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 55ms (ActiveRecord: 47.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (9.9ms)
+  Rendered docs/_sidebar.erb (1.5ms)
+  Rendered docs/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /services.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:02 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.5ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (7.2ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/docs/8" for 127.0.0.1 at Mon Jun 25 21:34:03 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"8", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 8]]
+[paperclip] Deleting attachments.
+  [1m[36m (41.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 50ms (ActiveRecord: 42.6ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:03 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (10.0ms)
+  Rendered docs/_sidebar.erb (1.2ms)
+  Rendered docs/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 46ms (Views: 37.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:03 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:03 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /docs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:04 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (3.8ms)
+Completed 200 OK in 14ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/docs/10" for 127.0.0.1 at Mon Jun 25 21:34:05 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"10", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (3.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 10]]
+[paperclip] Deleting attachments.
+  [1m[36m (36.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 47ms (ActiveRecord: 40.7ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:05 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (7.6ms)
+  Rendered docs/_sidebar.erb (0.8ms)
+  Rendered docs/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 38ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:05 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:05 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /clients.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /contacts.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:06 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (2.6ms)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/docs/11" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"11", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 11]]
+[paperclip] Deleting attachments.
+  [1m[36m (40.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 52ms (ActiveRecord: 41.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (9.1ms)
+  Rendered docs/_sidebar.erb (1.1ms)
+  Rendered docs/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:07 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:08 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.4ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (2.4ms)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/docs/12" for 127.0.0.1 at Mon Jun 25 21:34:09 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"12", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "12"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.9ms)[0m  DELETE FROM "docs" WHERE "docs"."id" = ?  [["id", 12]]
+[paperclip] Deleting attachments.
+  [1m[36m (48.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 57ms (ActiveRecord: 49.9ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:09 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (3.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (5.1ms)
+  Rendered docs/_sidebar.erb (1.1ms)
+  Rendered docs/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 33ms (Views: 25.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:09 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:09 +0300 2012
+Served asset /docs.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /contacts.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:10 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (1.1ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_form.html.erb (4.6ms)
+  Rendered docs/new.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /clients.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:31 +0300 2012
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started POST "/docs" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Processing by DocsController#create as HTML
+  Parameters: {"doc"=>{"docfile"=>#<ActionDispatch::Http::UploadedFile:0xb64bd528 @tempfile=#<File:/tmp/RackMultipart20120625-12651-ehpx5l-0>, @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"doc[docfile]\"; filename=\"про не.txt\"\r\nContent-Type: text/plain\r\n", @original_filename="про не.txt">, "name"=>"aaabbbb", "content"=>"ab"}, "commit"=>"Обновить информацию", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "utf8"=>"✓"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "docs" ("content", "created_at", "docfile_content_type", "docfile_file_name", "docfile_file_size", "docfile_updated_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["content", "ab"], ["created_at", Mon, 25 Jun 2012 18:34:56 UTC +00:00], ["docfile_content_type", "text/plain"], ["docfile_file_name", "про_не.txt"], ["docfile_file_size", 36], ["docfile_updated_at", Mon, 25 Jun 2012 18:34:56 UTC +00:00], ["name", "aaabbbb"], ["updated_at", Mon, 25 Jun 2012 18:34:56 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving /home/fy/ror/first_app/public/docs-d/docfiles/13/про_не.txt
+  [1m[36m (20.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs/13
+Completed 302 Found in 80ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/docs/13" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "13"]]
+  Rendered docs/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 115ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /contacts.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /docs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /services.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:56 +0300 2012
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:34:58 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  Rendered docs/_content.erb (4.1ms)
+  Rendered docs/_sidebar.erb (1.1ms)
+  Rendered docs/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jstree/themes/default/style.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /jstree/themes/default/style.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.css?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /docs.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/_lib/jquery.cookie.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /_lib/jquery.cookie.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/_lib/jquery.hotkeys.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /_lib/jquery.hotkeys.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /clients.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contacts.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /contacts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/docs.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /docs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/services.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /services.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/start_articles.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /start_articles.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jstree/jquery.jstree.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /jstree/jquery.jstree.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:34:59 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.2ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (1.2ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/get_docfile/13" for 127.0.0.1 at Mon Jun 25 21:35:01 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "13"]]
+Sent file /home/fy/ror/first_app/public/docs-d/docfiles/13/про_не.txt (0.3ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.3ms)

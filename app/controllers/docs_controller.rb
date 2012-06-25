@@ -14,7 +14,9 @@ class DocsController < ApplicationController
       send_file doc.docfile.path
       ### redirect_to URI.encode(::FILE_SERV+doc.docfile.path)
     when 'production'
-      redirect_to URI.encode(::FILE_SERV+doc.docfile.path)    end
+      send_file doc.docfile.path
+      ### redirect_to URI.encode(::FILE_SERV+doc.docfile.path)    
+    end
   end
 
   # GET /docs

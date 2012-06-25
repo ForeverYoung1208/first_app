@@ -1,0 +1,1193 @@
+
+
+Started GET "/" for 127.0.0.1 at Sun Jun 24 23:20:17 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.2ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (4.5ms)
+  Rendered layouts/_test_login_info.erb (0.7ms)
+  Rendered layouts/_sidebar.erb (20.0ms)
+  Rendered start_articles/index.html.erb within layouts/application (38.3ms)
+Compiled jstree/themes/default/style.css  (3ms)  (pid 12289)
+Compiled docs.css  (0ms)  (pid 12289)
+Compiled application.css  (275ms)  (pid 12289)
+Compiled jquery.js  (17ms)  (pid 12289)
+Compiled jquery_ujs.js  (1ms)  (pid 12289)
+Compiled _lib/jquery.cookie.js  (4ms)  (pid 12289)
+Compiled _lib/jquery.hotkeys.js  (1ms)  (pid 12289)
+Compiled clients.js  (511ms)  (pid 12289)
+Compiled contacts.js  (804ms)  (pid 12289)
+Compiled custom.js  (13ms)  (pid 12289)
+Compiled docs.js  (760ms)  (pid 12289)
+Compiled jquery-ui-1.8.18.custom.min.js  (31ms)  (pid 12289)
+Compiled services.js  (456ms)  (pid 12289)
+Compiled start_articles.js  (573ms)  (pid 12289)
+Compiled users.js  (546ms)  (pid 12289)
+Compiled jstree/jquery.jstree.js  (28ms)  (pid 12289)
+Compiled application.js  (4778ms)  (pid 12289)
+Completed 200 OK in 33174ms (Views: 33160.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application-cbde90c1554dc2b017cb597c451ae34c.css" for 127.0.0.1 at Sun Jun 24 23:20:51 +0300 2012
+Served asset /application-cbde90c1554dc2b017cb597c451ae34c.css - 200 OK (5ms)
+
+
+Started GET "/assets/application-46c103818437643dc12689017f0e41ce.js" for 127.0.0.1 at Sun Jun 24 23:20:51 +0300 2012
+Served asset /application-46c103818437643dc12689017f0e41ce.js - 200 OK (0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Sun Jun 24 23:20:57 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" 
+  Rendered docs/_content.erb (7.5ms)
+  Rendered layouts/_test_login_info.erb (0.7ms)
+  Rendered docs/_sidebar.erb (4.0ms)
+  Rendered docs/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 51ms (Views: 31.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Sun Jun 24 23:20:58 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/assets/d.png" for 127.0.0.1 at Sun Jun 24 23:20:58 +0300 2012
+Served asset /d.png - 200 OK (21ms)
+
+
+Started GET "/assets/throbber.gif" for 127.0.0.1 at Sun Jun 24 23:20:58 +0300 2012
+Served asset /throbber.gif - 200 OK (14ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Sun Jun 24 23:20:58 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (6.5ms)
+Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs.js?category=www" for 127.0.0.1 at Sun Jun 24 23:20:59 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"www"}
+  [1m[35mDoc Load (1.0ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'www'
+  Rendered docs/_content.erb (2.8ms)
+  Rendered docs/index.js.erb (5.2ms)
+Completed 200 OK in 32ms (Views: 14.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/docs.js?category=" for 127.0.0.1 at Sun Jun 24 23:21:02 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>""}
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  Rendered docs/_content.erb (3.0ms)
+  Rendered docs/index.js.erb (3.9ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/get_docfile/1" for 127.0.0.1 at Sun Jun 24 23:21:14 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoc Load (0.9ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "1"]]
+Redirected to https://s3-eu-west-1.amazonaws.com/fyfirsttest/heroku/docfiles/1/%D0%BF%D1%80%D0%BE_%D0%BD%D0%B5.txt
+Completed 302 Found in 21ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:09:15 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.1ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  Rendered start_articles/_start_article.erb (2.6ms)
+  Rendered layouts/_test_login_info.erb (0.3ms)
+  Rendered layouts/_sidebar.erb (6.0ms)
+  Rendered start_articles/index.html.erb within layouts/application (15.8ms)
+Compiled jstree/themes/default/style.css  (0ms)  (pid 11546)
+Compiled docs.css  (1ms)  (pid 11546)
+Compiled application.css  (18ms)  (pid 11546)
+Compiled jquery.js  (90ms)  (pid 11546)
+Compiled jquery_ujs.js  (1ms)  (pid 11546)
+Compiled _lib/jquery.cookie.js  (1ms)  (pid 11546)
+Compiled _lib/jquery.hotkeys.js  (1ms)  (pid 11546)
+Compiled clients.js  (367ms)  (pid 11546)
+Compiled contacts.js  (307ms)  (pid 11546)
+Compiled custom.js  (13ms)  (pid 11546)
+Compiled docs.js  (350ms)  (pid 11546)
+Compiled jquery-ui-1.8.18.custom.min.js  (16ms)  (pid 11546)
+Compiled services.js  (979ms)  (pid 11546)
+Compiled start_articles.js  (402ms)  (pid 11546)
+Compiled users.js  (396ms)  (pid 11546)
+Compiled jstree/jquery.jstree.js  (41ms)  (pid 11546)
+Compiled application.js  (3622ms)  (pid 11546)
+Completed 200 OK in 21574ms (Views: 21564.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:10:58 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" 
+  Rendered docs/_content.erb (7.2ms)
+  Rendered layouts/_test_login_info.erb (0.0ms)
+  Rendered docs/_sidebar.erb (1.8ms)
+  Rendered docs/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 40ms (Views: 20.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:10:59 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:10:59 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (17.9ms)
+Completed 200 OK in 37ms (Views: 26.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs.js?category=www" for 127.0.0.1 at Mon Jun 25 21:11:01 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"www"}
+  [1m[35mDoc Load (0.4ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."content" = 'www'
+  Rendered docs/_content.erb (2.2ms)
+  Rendered docs/index.js.erb (5.1ms)
+Completed 200 OK in 18ms (Views: 10.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/get_docfile/1" for 127.0.0.1 at Mon Jun 25 21:11:02 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoc Load (0.5ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+Redirected to https://s3-eu-west-1.amazonaws.com/fyfirsttest/heroku/docfiles/1/%D0%BF%D1%80%D0%BE_%D0%BD%D0%B5.txt
+Completed 302 Found in 15ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:11:18 +0300 2012
+Processing by Devise::SessionsController#new as HTML
+  Rendered layouts/_test_login_info.erb (0.1ms)
+  Rendered devise/_links.erb (3.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (123.2ms)
+Completed 200 OK in 199ms (Views: 166.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:11:24 +0300 2012
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Вход", "utf8"=>"✓", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "user"=>{"password"=>"[FILTERED]", "remember_me"=>"0", "email"=>"admin@admin.com"}}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'admin@admin.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "current_sign_in_at" = '2012-06-25 18:11:24.602471', "sign_in_count" = 4, "updated_at" = '2012-06-25 18:11:24.606288', "last_sign_in_at" = '2012-06-15 21:45:38.338148' WHERE "users"."id" = 3
+  [1m[36m (36.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 286ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:11:24 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[35mStartArticle Load (0.2ms)[0m  SELECT "start_articles".* FROM "start_articles" 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered start_articles/_start_article.erb (9.7ms)
+  Rendered layouts/_sidebar.erb (8.2ms)
+  Rendered start_articles/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 48ms (Views: 41.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:11:26 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.4ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered docs/_content.erb (6.2ms)
+  Rendered docs/_sidebar.erb (1.3ms)
+  Rendered docs/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:11:26 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:11:26 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (9.7ms)
+Completed 200 OK in 25ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at Mon Jun 25 21:11:29 +0300 2012
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered docs/_form.html.erb (6.4ms)
+  Rendered docs/new.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/docs" for 127.0.0.1 at Mon Jun 25 21:12:00 +0300 2012
+Processing by DocsController#create as HTML
+  Parameters: {"commit"=>"Обновить информацию", "utf8"=>"✓", "doc"=>{"name"=>"aaabbbb", "docfile"=>#<ActionDispatch::Http::UploadedFile:0xb6475278 @tempfile=#<File:/tmp/RackMultipart20120625-11546-1hx5hhh-0>, @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"doc[docfile]\"; filename=\"sun-in-the-hand-400x299.jpg\"\r\nContent-Type: image/jpeg\r\n", @original_filename="sun-in-the-hand-400x299.jpg">, "content"=>"ab"}, "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "docs" ("content", "created_at", "docfile_content_type", "docfile_file_name", "docfile_file_size", "docfile_updated_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["content", "ab"], ["created_at", Mon, 25 Jun 2012 18:12:00 UTC +00:00], ["docfile_content_type", "image/jpeg"], ["docfile_file_name", "sun-in-the-hand-400x299.jpg"], ["docfile_file_size", 22641], ["docfile_updated_at", Mon, 25 Jun 2012 18:12:00 UTC +00:00], ["name", "aaabbbb"], ["updated_at", Mon, 25 Jun 2012 18:12:00 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving heroku/docfiles/2/sun-in-the-hand-400x299.jpg
+  [1m[36m (64.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/docs/2
+Completed 302 Found in 120ms (ActiveRecord: 68.0ms)
+
+
+Started GET "/docs/2" for 127.0.0.1 at Mon Jun 25 21:12:00 +0300 2012
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered docs/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 43ms (Views: 28.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:12:03 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered docs/_content.erb (10.0ms)
+  Rendered docs/_sidebar.erb (0.9ms)
+  Rendered docs/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:12:04 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:12:04 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.2ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (25.2ms)
+Completed 200 OK in 35ms (Views: 26.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs.js?category=ab" for 127.0.0.1 at Mon Jun 25 21:12:42 +0300 2012
+Processing by DocsController#index as JS
+  Parameters: {"category"=>"ab"}
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."content" = 'ab'[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (5.0ms)
+  Rendered docs/index.js.erb (5.9ms)
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/get_docfile/2" for 127.0.0.1 at Mon Jun 25 21:12:44 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mDoc Load (0.1ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Redirected to https://s3-eu-west-1.amazonaws.com/fyfirsttest/heroku/docfiles/2/sun-in-the-hand-400x299.jpg
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:26:51 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[36mStartArticle Load (0.1ms)[0m  [1mSELECT "start_articles".* FROM "start_articles" [0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered start_articles/_start_article.erb (206.8ms)
+  Rendered layouts/_sidebar.erb (10.7ms)
+  Rendered start_articles/index.html.erb within layouts/application (238.9ms)
+Completed 200 OK in 797ms (Views: 739.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:26:55 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (33.1ms)
+  Rendered docs/_sidebar.erb (11.3ms)
+  Rendered docs/index.html.erb within layouts/application (63.1ms)
+Completed 200 OK in 176ms (Views: 89.3ms | ActiveRecord: 16.9ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:26:56 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:26:56 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (8.7ms)
+Completed 200 OK in 30ms (Views: 24.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at Mon Jun 25 21:27:11 +0300 2012
+Processing by DocsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_form.html.erb (26.3ms)
+  Rendered docs/new.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 73ms (Views: 47.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/docs" for 127.0.0.1 at Mon Jun 25 21:27:26 +0300 2012
+Processing by DocsController#create as HTML
+  Parameters: {"utf8"=>"✓", "commit"=>"Обновить информацию", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "doc"=>{"content"=>"ab", "name"=>"aaaccc", "docfile"=>#<ActionDispatch::Http::UploadedFile:0xb66025dc @tempfile=#<File:/tmp/RackMultipart20120625-12407-oh0jt4-0>, @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"doc[docfile]\"; filename=\"sun-in-the-hand-400x299.jpg\"\r\nContent-Type: image/jpeg\r\n", @original_filename="sun-in-the-hand-400x299.jpg">}}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "docs" ("content", "created_at", "docfile_content_type", "docfile_file_name", "docfile_file_size", "docfile_updated_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["content", "ab"], ["created_at", Mon, 25 Jun 2012 18:27:26 UTC +00:00], ["docfile_content_type", "image/jpeg"], ["docfile_file_name", "sun-in-the-hand-400x299.jpg"], ["docfile_file_size", 22641], ["docfile_updated_at", Mon, 25 Jun 2012 18:27:26 UTC +00:00], ["name", "aaaccc"], ["updated_at", Mon, 25 Jun 2012 18:27:26 UTC +00:00]]
+[paperclip] Saving attachments.
+[paperclip] saving heroku/docfiles/3/sun-in-the-hand-400x299.jpg
+  [1m[35m (50.1ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/docs/3
+Completed 302 Found in 88ms (ActiveRecord: 56.7ms)
+
+
+Started GET "/docs/3" for 127.0.0.1 at Mon Jun 25 21:27:27 +0300 2012
+Processing by DocsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered docs/show.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:27:30 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (21.3ms)
+  Rendered docs/_sidebar.erb (1.4ms)
+  Rendered docs/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:27:30 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:27:30 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.4ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (15.0ms)
+Completed 200 OK in 218ms (Views: 54.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/get_docfile/3" for 127.0.0.1 at Mon Jun 25 21:27:35 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mDoc Load (0.2ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "3"]]
+Sent file heroku/docfiles/3/sun-in-the-hand-400x299.jpg (0.1ms)
+Completed 200 OK in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/docs/3/edit" for 127.0.0.1 at Mon Jun 25 21:28:28 +0300 2012
+Processing by DocsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35mDoc Load (0.1ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "3"]]
+  Rendered docs/_form.html.erb (4.2ms)
+  Rendered docs/edit.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 31ms (Views: 24.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:28:30 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.6ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (15.9ms)
+  Rendered docs/_sidebar.erb (1.1ms)
+  Rendered docs/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 33ms (Views: 27.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:28:30 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:28:30 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.8ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (5.3ms)
+Completed 200 OK in 21ms (Views: 6.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/get_docfile/2" for 127.0.0.1 at Mon Jun 25 21:28:33 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mDoc Load (0.3ms)[0m  SELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1  [["id", "2"]]
+Sent file heroku/docfiles/2/sun-in-the-hand-400x299.jpg (0.2ms)
+Completed 200 OK in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/get_docfile/3" for 127.0.0.1 at Mon Jun 25 21:29:40 +0300 2012
+Processing by DocsController#get_docfile as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDoc Load (0.7ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Sent file heroku/docfiles/3/sun-in-the-hand-400x299.jpg (0.2ms)
+Completed 200 OK in 7ms (ActiveRecord: 0.7ms)
+
+
+Started DELETE "/docs/3" for 127.0.0.1 at Mon Jun 25 21:30:22 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"3", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 3]]
+[paperclip] Deleting attachments.
+[paperclip] deleting heroku/docfiles/3/sun-in-the-hand-400x299.jpg
+  [1m[35m (62.1ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 79ms (ActiveRecord: 63.0ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:30:22 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (5.9ms)
+  Rendered docs/_sidebar.erb (1.4ms)
+  Rendered docs/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 19ms (Views: 12.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:30:22 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:30:22 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (2.1ms)
+Completed 200 OK in 22ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/docs/2" for 127.0.0.1 at Mon Jun 25 21:30:24 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"2", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mDoc Load (0.1ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 2]]
+[paperclip] Deleting attachments.
+[paperclip] deleting heroku/docfiles/2/sun-in-the-hand-400x299.jpg
+  [1m[35m (42.0ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 55ms (ActiveRecord: 43.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:30:24 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (3.6ms)
+  Rendered docs/_sidebar.erb (0.8ms)
+  Rendered docs/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:30:25 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:30:25 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (10.0ms)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/docs/1" for 127.0.0.1 at Mon Jun 25 21:30:27 +0300 2012
+Processing by DocsController#destroy as HTML
+  Parameters: {"id"=>"1", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36mDoc Load (0.1ms)[0m  [1mSELECT "docs".* FROM "docs" WHERE "docs"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.7ms)[0m  [1mDELETE FROM "docs" WHERE "docs"."id" = ?[0m  [["id", 1]]
+[paperclip] Deleting attachments.
+  [1m[35m (42.7ms)[0m  commit transaction
+Redirected to http://127.0.0.1:3000/docs
+Completed 302 Found in 54ms (ActiveRecord: 43.9ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:30:27 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (11.2ms)
+  Rendered docs/_sidebar.erb (2.2ms)
+  Rendered docs/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 32ms (Views: 23.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:30:27 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:30:27 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (0.3ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (4.2ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:30:30 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.2ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (1.2ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:30:33 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.2ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered docs/_content.erb (2.4ms)
+  Rendered docs/_sidebar.erb (1.4ms)
+  Rendered docs/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 40ms (Views: 36.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:30:34 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:30:34 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (4.5ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (3.9ms)
+Completed 200 OK in 10ms (Views: 4.7ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:35:32 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[36mDoc Load (0.1ms)[0m  [1mSELECT "docs".* FROM "docs" [0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  Rendered docs/_content.erb (46.3ms)
+  Rendered layouts/_test_login_info.erb (0.4ms)
+  Rendered docs/_sidebar.erb (5.0ms)
+  Rendered docs/index.html.erb within layouts/application (57.1ms)
+Compiled jstree/themes/default/style.css  (1ms)  (pid 12732)
+Compiled docs.css  (0ms)  (pid 12732)
+Compiled application.css  (17ms)  (pid 12732)
+Compiled jquery.js  (11ms)  (pid 12732)
+Compiled jquery_ujs.js  (2ms)  (pid 12732)
+Compiled _lib/jquery.cookie.js  (1ms)  (pid 12732)
+Compiled _lib/jquery.hotkeys.js  (0ms)  (pid 12732)
+Compiled clients.js  (365ms)  (pid 12732)
+Compiled contacts.js  (354ms)  (pid 12732)
+Compiled custom.js  (4ms)  (pid 12732)
+Compiled docs.js  (279ms)  (pid 12732)
+Compiled jquery-ui-1.8.18.custom.min.js  (8ms)  (pid 12732)
+Compiled services.js  (277ms)  (pid 12732)
+Compiled start_articles.js  (317ms)  (pid 12732)
+Compiled users.js  (313ms)  (pid 12732)
+Compiled jstree/jquery.jstree.js  (21ms)  (pid 12732)
+Compiled application.js  (2657ms)  (pid 12732)
+Completed 200 OK in 21257ms (Views: 21252.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:35:54 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:35:54 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[36mDoc Load (6.7ms)[0m  [1mSELECT DISTINCT content FROM "docs" [0m
+  Rendered docs/get_categories.json.json_builder (5.4ms)
+Completed 200 OK in 44ms (Views: 33.9ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:36:11 +0300 2012
+Processing by Devise::SessionsController#new as HTML
+  Rendered layouts/_test_login_info.erb (0.2ms)
+  Rendered devise/_links.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at Mon Jun 25 21:36:15 +0300 2012
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"commit"=>"Вход", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "user"=>{"email"=>"admin@admin.com", "remember_me"=>"0", "password"=>"[FILTERED]"}, "utf8"=>"✓"}
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'admin@admin.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (2.5ms)[0m  UPDATE "users" SET "updated_at" = '2012-06-25 18:36:15.656127', "current_sign_in_at" = '2012-06-25 18:36:15.654185', "sign_in_count" = 5, "last_sign_in_at" = '2012-06-25 18:11:24.602471' WHERE "users"."id" = 3
+  [1m[36m (51.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 231ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Jun 25 21:36:15 +0300 2012
+Processing by StartArticlesController#index as HTML
+  [1m[35mStartArticle Load (0.2ms)[0m  SELECT "start_articles".* FROM "start_articles" 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered start_articles/_start_article.erb (5.9ms)
+  Rendered layouts/_sidebar.erb (6.3ms)
+  Rendered start_articles/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 48ms (Views: 31.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/docs" for 127.0.0.1 at Mon Jun 25 21:36:19 +0300 2012
+Processing by DocsController#index as HTML
+  [1m[35mDoc Load (0.4ms)[0m  SELECT "docs".* FROM "docs" 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered docs/_content.erb (2.6ms)
+  Rendered docs/_sidebar.erb (1.8ms)
+  Rendered docs/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 28ms (Views: 22.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/themes/default/style.css" for 127.0.0.1 at Mon Jun 25 21:36:20 +0300 2012
+
+ActionController::RoutingError (No route matches [GET] "/themes/default/style.css"):
+  actionpack (3.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.3) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.3) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.3) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.3) lib/action_dispatch/middleware/static.rb:62:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.3) lib/rails/engine.rb:479:in `call'
+  railties (3.2.3) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.3) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/rvm/rubies/ruby-1.8.7-p357/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.3) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.3) lib/rails/commands.rb:55
+  railties (3.2.3) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.3) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+
+
+Started GET "/docs/get_categories" for 127.0.0.1 at Mon Jun 25 21:36:20 +0300 2012
+Processing by DocsController#get_categories as JSON
+  [1m[35mDoc Load (0.3ms)[0m  SELECT DISTINCT content FROM "docs" 
+  Rendered docs/get_categories.json.json_builder (3.9ms)
+Completed 200 OK in 16ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/docs/new" for 127.0.0.1 at Mon Jun 25 21:36:21 +0300 2012
+Processing by DocsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered docs/_form.html.erb (8.3ms)
+  Rendered docs/new.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 42ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/docs" for 127.0.0.1 at Mon Jun 25 21:36:32 +0300 2012
+Processing by DocsController#create as HTML
+  Parameters: {"commit"=>"Обновить информацию", "authenticity_token"=>"v0pjoQEqyX0tJRVMnnvqxGhj69kvhOjaVtYuaVWzGFo=", "doc"=>{"name"=>"aaaccc", "docfile"=>#<ActionDispatch::Http::UploadedFile:0xb6521208 @tempfile=#<File:/tmp/RackMultipart20120625-12732-8p4tk-0>, @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"doc[docfile]\"; filename=\"укукуку.txt\"\r\nContent-Type: text/plain\r\n", @original_filename="укукуку.txt">, "content"=>"ac"}, "utf8"=>"✓"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "docs" ("content", "created_at", "docfile_content_type", "docfile_file_name", "docfile_file_size", "docfile_updated_at", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["content", "ac"], ["created_at", Mon, 25 Jun 2012 18:36:32 UTC +00:00], ["docfile_content_type", "text/plain"], ["docfile_file_name", "укукуку.txt"], ["docfile_file_size", 36], ["docfile_updated_at", Mon, 25 Jun 2012 18:36:32 UTC +00:00], ["name", "aaaccc"], ["updated_at", Mon, 25 Jun 2012 18:36:32 UTC +00:00]]
+[paperclip] Saving attachments.
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 36ms
+
+Errno::EACCES (Permission denied - /public):
+  app/controllers/docs_controller.rb:68:in `create'
+  app/controllers/docs_controller.rb:67:in `create'
+
+
