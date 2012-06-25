@@ -39,14 +39,18 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'paperclip', '~> 2.7'  
 
+
 # gem 'aws-s3'
 # gem 'aws-sdk'
 gem 'json_builder'
 
-#defition special gem versions for hosting
+#definition special gem versions for hosting
 
 gem 'xml-simple', '1.0.12'
 gem 'journey', '1.0.3'
+gem 'orm_adapter', '0.0.5'
+gem 'warden', '1.1.0'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
