@@ -13,14 +13,16 @@ gem 'rails', '3.2.3'
 #gem "fastthread"
 ##############
 
-group :production do
-  gem 'pg'
-end
+#group :production do
+#  gem 'pg'
+#end
 
 
-group :development do
-  gem 'sqlite3'
-end
+#group :development do
+#  gem 'sqlite3'
+#end
+
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -46,10 +48,10 @@ gem 'json_builder'
 
 #definition special gem versions for hosting
 
-gem 'xml-simple'
-gem 'journey'
-gem 'orm_adapter'
-gem 'warden'
+gem 'xml-simple', '1.0.12'
+gem 'journey', '1.0.3'
+gem 'orm_adapter', '0.0.5'
+gem 'warden', '1.1.0'
 
 
 # To use ActiveModel has_secure_password
