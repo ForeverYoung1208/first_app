@@ -54,7 +54,7 @@ gem 'xml-simple', '1.0.12'
 gem 'journey', '1.0.3'
 gem 'orm_adapter', '0.0.5'
 gem 'warden', '1.1.0'
-
+gem 'mongrel', '1.2.0.pre2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

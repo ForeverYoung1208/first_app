@@ -9,7 +9,7 @@ gem 'rails', '3.2.3'
 
 ############ добавил для mysql
 
-gem 'mysql', '2.8.1'
+gem 'mysql2', '0.3.11'
 
 #gem "cgi_multipart_eof_fix"
 #gem "fastthread"
