@@ -1,6 +1,7 @@
 FirstApp::Application.routes.draw do
 
-devise_for :users
+#devise_for :users
+devise_for :users, :skip => :registrations
 
 namespace :admin do
   resources :users
