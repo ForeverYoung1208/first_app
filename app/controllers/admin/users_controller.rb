@@ -60,11 +60,8 @@ class Admin::UsersController < ApplicationController
 
   private
   
-  def load_user
-#    logger.debug('params= '+params[:id]) if params[:id]
-#    logger.debug('params= nil') if params[:id]==nil
-
-    @user=User.find(params[:id]) if params[:id]
-  end
+#  def load_user
+#    @user=User.find(params[:id]) if params[:id]
+#  end
   
 end

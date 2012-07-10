@@ -49,12 +49,15 @@
 	<div id="page">
 
                 <%= yield %>
+          	<div style="clear: both;">&nbsp;</div>
           
-		<div style="clear: both;">&nbsp;</div>
 	</div>
 	<!-- end #page -->
 
         <div id="footer">
+          <%= link_to "Войти", new_user_session_path %>
+          <%= admin_link_to "Новый пользователь", new_admin_user_path %>
+
 		<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
 	</div>
 	<!-- end #footer -->
