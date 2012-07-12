@@ -1,6 +1,6 @@
 <h2>Новый пользователь</h2>
 <br/>
-<%= form_for(@user, :url => admin_user_path(@user)) do |f| %>
+<%= form_for(@user, :url => admin_user_path( @user.id )) do |f| %>
 
   <% if @user.errors.any? %>
     <div id="error_explanation">
