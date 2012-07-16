@@ -270,6 +270,10 @@ hr {
 	float: right;
 	width: 640px;
 }
+#content_ajax {
+  	display: block;
+	float: left;
+}
 
 /* Post */
 

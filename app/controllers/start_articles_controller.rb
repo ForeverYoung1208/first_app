@@ -48,7 +48,7 @@ class StartArticlesController < ApplicationController
 
     respond_to do |format|
       if @start_article.save
-        format.html { redirect_to @start_article, :notice => 'Новая ствтья о компании создана' }
+        format.html { redirect_to start_articles_path, :notice => 'Новая ствтья о компании создана' }
         format.json { render :json => @start_article, :status => :created, :location => @start_article }
       else
         format.html { render :action => "new" }
