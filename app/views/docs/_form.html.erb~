@@ -1,0 +1,36 @@
+<%= form_for @doc, :html => { :multipart => true } do |f| %>
+  <% if @doc.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@doc.errors.count, "error") %> prohibited this doc from being saved:</h2>
+
+      <ul>
+      <% @doc.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <br/>
+  <div class="field">
+    <%= f.label "Назва" %><br />
+    <%= f.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= f.label "Категорія" %><br />
+    <%= f.text_field :content %>
+  </div>
+
+
+  <div class="field">
+    <%= f.label "файл:"%><br />
+    <%= f.file_field :docfile %>
+  </div>
+
+
+  <div class="actions">
+    <br/>
+    <%= f.submit 'Застосувати'%>
+  </div>
+<% end %>

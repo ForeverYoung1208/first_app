@@ -1,0 +1,29 @@
+<%= form_for(@service) do |f| %>
+  <% if @service.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@service.errors.count, "error") %>, Знайдено помилки при заповненні форми:</h2>
+
+      <ul>
+      <% @service.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label 'Послуга' %><br />
+    <%= f.text_field :name %>
+  </div>
+
+<!--
+  <div class="field">
+    <  f.label 'Вартість' %><br />
+    <  f.text_field :price %>
+  </div>
+-->
+
+  <div class="actions">
+    <%= f.submit 'Застосувати'%>
+  </div>
+<% end %>

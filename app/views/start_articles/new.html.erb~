@@ -1,0 +1,5 @@
+<h2>Добавить Статью о компании</h2>
+
+<%= render 'form' %>
+<br/>
+<%= link_to 'Назад на главную', start_articles_path %>

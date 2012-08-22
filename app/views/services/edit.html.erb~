@@ -1,0 +1,5 @@
+<h3>Редактирование услуги</h3>
+
+<%= render 'form' %>
+
+<%= link_to 'Назад', services_path %>

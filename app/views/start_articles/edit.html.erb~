@@ -1,0 +1,6 @@
+<h1>Редактирование информации</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @start_article %> |
+<%= link_to 'Back', start_articles_path %>

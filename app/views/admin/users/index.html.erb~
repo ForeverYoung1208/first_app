@@ -1,0 +1,37 @@
+<div id="content">
+
+    <h2>пользователи</h2>
+    <br/>
+    <table>
+      <tr>
+        <th>email</th>
+        <th>in_count</th>
+        <th>last_sign_in_at</th>
+        <th>last_sign_in_ip</th>
+        <th>updated_at</th>
+        <th>admin?</th>
+      </tr>
+
+    <% @users.each do |u| %>
+      <tr>
+
+        <td><%= u.email %></td>
+        <td><%= u.sign_in_count %></td>
+        <td><%= u.last_sign_in_at %></td>
+        <td><%= u.last_sign_in_ip %></td>
+        <td><%= u.updated_at %></td>
+        <td><%= u.admin %></td>
+
+
+        <td><%= admin_link_to 'Редактировать', edit_admin_user_path(u) %></td>
+        <td><%= admin_link_to 'Удалить', admin_user_path(u), :confirm => 'Точно?', :method=> :delete %></td>
+      </tr>
+    <% end %>
+    </table>
+
+    <br />
+
+    <%= admin_link_to 'Добавить пользователя', new_admin_user_path %>
+</div>
+
+<%= render "layouts/sidebar" %>

@@ -1,0 +1,38 @@
+array [0] do
+  data 'Все документы'
+  state 'open'
+  metadata do
+    id ''
+  end
+  children @categories do |category|
+    data category.content
+    metadata do
+      id category.content
+    end
+  end
+
+end
+
+
+
+
+
+
+=begin
+array [0] do
+  data 'Все документы'
+  state 'open'
+  metadata do
+    id 'мета-все-документы'
+  end
+  children do
+      array ['Уставные','Нормативные'] do |category|
+      data category
+      metadata do
+        id category
+      end
+    end
+  end
+
+end
+=end

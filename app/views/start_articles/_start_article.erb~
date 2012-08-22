@@ -1,0 +1,11 @@
+  <div class="post">
+
+      <div class="entry">
+        <p><%= start_article.content %></p>
+          <p class="meta">
+              <%= admin_link_to 'Редагувати', edit_start_article_path(start_article)%>
+              <%= admin_link_to '| Видалити', start_article, :confirm=>'Точно видалити?', :method=>:delete %>
+          </p>
+      </div>
+
+  </div>
