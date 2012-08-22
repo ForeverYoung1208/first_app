@@ -1,9 +1,17 @@
+/*
+ *= require jstree/themes/default/style
+ *= require docs
+ *= require start_articles
+ */
+
+
 
 /*
 Design by Free CSS Templates
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
+
 
 body {
 	margin: 0;
@@ -51,6 +59,8 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
+
 
 a img {
 	border: none;
@@ -118,8 +128,14 @@ hr {
 
 #menu li {
 	display: block;
-	background: url(img02.jpg) repeat-y left top;
+/*	background: url(img02.jpg) repeat-y left top;*/
 	float: left;
+}
+
+#menu .current_page_item a {
+	background: #551300;
+	height: 20px;
+	color: #FFFFFF;
 }
 
 #menu a {
@@ -136,17 +152,16 @@ hr {
 	color: #551300;
 }
 
+/*
 #menu a:hover {
 	text-decoration: none;
 	background: #551300;
 	color: #FFFFFF;
 }
+*/
 
-#menu .current_page_item a {
-	background: #551300;
-	height: 20px;
-	color: #FFFFFF;
-}
+
+
 
 #menu .first {
 	background: none;
@@ -205,7 +220,7 @@ hr {
 }
 
 /** LOGO */
-
+/*
 #logo {
 	width: 1000px;
 	height: 415px;
@@ -213,9 +228,19 @@ hr {
 	padding-top: 25px;
 	background: #FFFFFF url(img01.jpg) no-repeat center 25px;
 }
+*/
+
+#logo {
+	width: 1000px;
+	height: 230px;
+	margin: 0 auto;
+	padding-top: 25px;
+	background: #FFFFFF url(img01_1.jpg) no-repeat center 25px;
+}
+
 
 #logo h1, #logo p {
-	width: 360px;
+	width: 380px;
 	margin: 0px;
 	line-height: normal;
 	text-align: center;
@@ -229,9 +254,9 @@ hr {
 }
 
 #logo h1 {
-	padding-top: 250px;
-	text-transform: lowercase;
-	font-size: 60px;
+	padding-top: 100px;
+/*	text-transform: lowercase;*/
+	font-size: 20px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -245,6 +270,12 @@ hr {
 #content {
 	float: right;
 	width: 640px;
+}
+
+#content_ajax {
+  	display: block;
+	float: left;
+	width: 600px;
 }
 
 /* Post */
@@ -325,9 +356,10 @@ hr {
 }
 
 #sidebar li li {
+	border-bottom: none;
 	margin: 0 0 0 5px;
 	padding: 10px 0px 15px 15px;
-	background: url(img09.jpg) no-repeat left 16px;
+	background: url(img09.jpg) no-repeat left 14px;
 }
 
 #sidebar p {
@@ -346,10 +378,11 @@ hr {
 #sidebar p {
 	line-height: 200%;
 }
-
+/*
 #sidebar a {
 	color: #696969;
 }
+*/
 
 /* Calendar */
 

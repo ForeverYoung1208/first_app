@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Столичный Регистратор</title>
+  <title>Столичний реєстратор</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -14,15 +14,15 @@
 		<div id="menu">
 			<ul>
                                 <%= li_current_page_item(@selected_page, :page1 ) do %>
-                                    <%=  link_to "О компании", start_articles_url%>
+                                    <%=  link_to "Про компанію", start_articles_url%>
                                 <%  end %>
 
                                 <%= li_current_page_item(@selected_page, :page2 ) do %>
-                                    <%=  link_to "Услуги", services_url%>
+                                    <%=  link_to "Послуги", services_url%>
                                 <%  end %>
 
                                 <%= li_current_page_item(@selected_page, :page3 ) do %>
-                                    <%=  link_to "Документы", docs_url%>
+                                    <%=  link_to "Документи", docs_url%>
                                 <%  end %>
 <!--
                                 <= li_current_page_item(@selected_page, :page4 ) do %>
@@ -30,16 +30,16 @@
                                 <  end %>
 -->
                                 <%= li_current_page_item(@selected_page, :page5 ) do %>
-                                    <%=  link_to "Контакты", contacts_url%>
+                                    <%=  link_to "Контакти", contacts_url%>
                                 <%  end %>
 			</ul>
 		</div>
 		<!-- end #menu -->
 	</div>
 	<div id="logo">
-		<h1><%=  link_to 'Столичный регистратор', root_path %></h1>
-                <p><em> ООО "Столичный регистратор" </em></p>
-		<p><em> Участник Фондового рынка Укаины </em></p>
+		<h1><%=  link_to 'Столичний реєстратор', root_path %></h1>
+                <p><em> ТОВ "Столичний реєстратор" </em></p>
+		<p><em> Учасник Фондового ринку України </em></p>
 	</div>
 	<hr />
 	<!-- end #logo -->
@@ -55,8 +55,8 @@
 	<!-- end #page -->
 
         <div id="footer">
-          <%= link_to "Войти", new_user_session_path %>
-          <%= admin_link_to "Новый пользователь", new_admin_user_path %>
+          <%= link_to "Вхід", new_user_session_path %>
+
 
 		<p>Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
 	</div>

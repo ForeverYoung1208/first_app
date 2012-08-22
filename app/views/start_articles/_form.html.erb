@@ -1,7 +1,7 @@
 <%= form_for(@start_article) do |f| %>
   <% if @start_article.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@start_article.errors.count, "error") %> prohibited this start_article from being saved:</h2>
+      <h2><%= pluralize(@start_article.errors.count, "error") %> Знайдено помилки заповнення:</h2>
 
       <ul>
       <% @start_article.errors.full_messages.each do |msg| %>
@@ -16,6 +16,6 @@
   </div>
   <div class="actions">
   <br/>
-  <%= f.submit "Применить" %>
+  <%= f.submit "Застосуввати" %>
   </div>
 <% end %>

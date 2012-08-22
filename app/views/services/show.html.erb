@@ -1,15 +1,16 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Наименование услуги</b>
+  <b>Найменування послуги</b>
   <%= @service.name %>
 </p>
 
+<!--
 <p>
-  <b>Стоимость</b>
-  <%= @service.price %>
+  <b>Вартість</b>
+  < @service.price %>
 </p>
+-->
 
-
-<%= link_to 'Edit', edit_service_path(@service) %> |
-<%= link_to 'Back', services_path %>
+<%= link_to 'редагувати', edit_service_path(@service) %> |
+<%= link_to 'Назад', services_path %>

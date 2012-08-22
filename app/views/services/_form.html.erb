@@ -1,7 +1,7 @@
 <%= form_for(@service) do |f| %>
   <% if @service.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@service.errors.count, "error") %>, Обнаружены ошибки при заоплнении:</h2>
+      <h2><%= pluralize(@service.errors.count, "error") %>, Знайдено помилки при заповненні форми:</h2>
 
       <ul>
       <% @service.errors.full_messages.each do |msg| %>
@@ -12,14 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= f.label 'Наименование услуги' %><br />
-    <%= f.text_field :name %>
+    <%= f.label 'Послуга' %><br />
+    <%= f.text_area :name %>
   </div>
+
+<!--
   <div class="field">
-    <%= f.label 'Стоимость' %><br />
-    <%= f.text_field :price %>
+    <  f.label 'Вартість' %><br />
+    <  f.text_field :price %>
   </div>
+-->
+
   <div class="actions">
-    <%= f.submit 'Применить'%>
+    <%= f.submit 'Застосувати'%>
   </div>
 <% end %>

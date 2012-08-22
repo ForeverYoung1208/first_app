@@ -1,5 +1,5 @@
 array [0] do
-  data 'Все документы'
+  data 'Всі документи'
   state 'open'
   metadata do
     id ''

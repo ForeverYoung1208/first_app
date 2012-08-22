@@ -1,6 +1,7 @@
 /*
  *= require jstree/themes/default/style
  *= require docs
+ *= require start_articles
  */
 
 
@@ -270,9 +271,11 @@ hr {
 	float: right;
 	width: 640px;
 }
+
 #content_ajax {
   	display: block;
 	float: left;
+	width: 600px;
 }
 
 /* Post */

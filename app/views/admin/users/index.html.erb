@@ -1,6 +1,6 @@
 <div id="content">
 
-    <h2>пользователи</h2>
+    <h2>Користувачі</h2>
     <br/>
     <table>
       <tr>
@@ -23,15 +23,15 @@
         <td><%= u.admin %></td>
 
 
-        <td><%= admin_link_to 'Редактировать', edit_admin_user_path(u) %></td>
-        <td><%= admin_link_to 'Удалить', admin_user_path(u), :confirm => 'Точно?', :method=> :delete %></td>
+        <td><%= admin_link_to 'Редагувати', edit_admin_user_path(u) %></td>
+        <td><%= admin_link_to 'Видалити', admin_user_path(u), :confirm => 'Точно?', :method=> :delete %></td>
       </tr>
     <% end %>
     </table>
 
     <br />
 
-    <%= admin_link_to 'Добавить пользователя', new_admin_user_path %>
+    <%= admin_link_to 'Додати користувача', new_admin_user_path %>
 </div>
 
 <%= render "layouts/sidebar" %>

@@ -8,4 +8,11 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.docs_table {
+
+}
+
+.docs_table td{
+	border: 1px solid gray;
+}
 

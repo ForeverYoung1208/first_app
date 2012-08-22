@@ -1,11 +1,11 @@
 <div id="content">
-  <h2>Документы</h2>
+  <h2>Документи</h2>
   <br/>
-  <table>
+  <table class="docs_table">
     <tr>
-      <th>Название</th>
-      <th>Категория (содержание)</th>
-      <th>Ссылка на файл:</th>
+      <th>Назва</th>
+      <th>Категорія</th>
+      <th>файл:</th>
       <th></th>
       <th></th>
     </tr>
@@ -14,13 +14,13 @@
       <td><%= doc.name %></td>
       <td><%= doc.content %></td>
       <td><%= link_to doc.docfile_file_name, get_docfile_path(doc.id)  %></td>
-      <td><%= admin_link_to 'Редактировать', edit_doc_path(doc) %></td>
-      <td><%= admin_link_to 'Удалить', doc, :confirm => 'Точно?', :method => :delete %></td>
+      <%= admin_link_to_td 'Редагувати', edit_doc_path(doc) %>
+      <%= admin_link_to_td 'Видалити', doc, :confirm => 'Точно?', :method => :delete %>
     </tr>
   <% end %>
   </table>
 
   <br />
 
-  <%= admin_link_to 'Добавить документ', new_doc_path %>
+  <%= admin_link_to 'Додати документ', new_doc_path %>
 </div>

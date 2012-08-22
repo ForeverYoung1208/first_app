@@ -13,4 +13,11 @@ module ApplicationHelper
       link_to(*args, &block)
     end
   end
+  
+  def admin_link_to_td (*args, &block)
+    if current_user&&current_user.admin?
+      content_tag(:td, link_to(*args, &block))
+    end
+  end
+  
 end
