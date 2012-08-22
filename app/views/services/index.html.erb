@@ -7,7 +7,7 @@
 
     <% @services.each do |service| %>
       <tr>
-        <td><li><%= service.name %></li></td>
+        <td><li><%= simple_format(service.name) %></li></td>
         <%= admin_link_to_td 'Редагувати', edit_service_path(service) %>
         <%= admin_link_to_td 'Видалити', service, :confirm => 'Точно?', :method => :delete %>
       </tr>
