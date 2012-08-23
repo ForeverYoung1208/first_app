@@ -13,6 +13,7 @@
 }
 
 .docs_table td{
-	border: 1px solid gray;
+	border-left: 2px solid gray;
+
 }
 
